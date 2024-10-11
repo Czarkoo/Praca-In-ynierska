@@ -1,0 +1,25 @@
+{
+	"clients": [
+		{
+			"firstName": "William",
+			"lastName": "Jackson",
+			"region": "Śląsk, Gliwice",
+			"description": "Choosing to pursue my degree at Edusity was one of the best decisions I've ever made. będzie tutaj jeszcze trochę tekstu .................... tekst cos tam cos tam będzie tutaj jeszcze trochę tekstu .................... tekst cos tam cos tam będzie tutaj jeszcze trochę tekstu .................... tekst cos tam cos tam ",
+			"image": "william_person1.png"
+		},
+		{
+			"firstName": "Emily",
+			"lastName": "Williams",
+			"region": "Śląsk, Sosnowiec",
+			"description": "Choosing to pursue my degree at Edusity was one of the best decisions I've ever made.",
+			"image": "emily_person2.png"
+		},
+		{
+			"firstName": "John",
+			"lastName": "Doe",
+			"region": "Śląsk, Katowice",
+			"description": "Edusity has provided me with excellent educational resources and a great learning environment.",
+			"image": "john_person3.png"
+		}
+	]
+}

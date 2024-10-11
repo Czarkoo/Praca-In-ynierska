@@ -1,0 +1,23 @@
+.Opinions {
+	margin: 80px auto;
+	padding: 0 80px;
+	position: relative;
+}
+
+.arrow-back-btn {
+	left: 0;
+	right: auto;
+}
+
+.arrow-back-btn,
+.arrow-next-btn {
+	position: absolute;
+	right: 0;
+	padding: 15px;
+	width: 50px;
+	top: 50%;
+	transform: translateY(-50%);
+	border-radius: 45%;
+	cursor: pointer;
+	background: rgb(38, 36, 165);
+}

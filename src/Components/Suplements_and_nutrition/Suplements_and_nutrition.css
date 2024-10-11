@@ -1,0 +1,29 @@
+.suplements {
+	margin: 80px auto;
+	width: 90%;
+	text-align: center;
+}
+
+.gallery_suplements {
+	align-items: stretch;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 40px;
+}
+
+.gallery_suplements img {
+	width: 24%;
+	object-fit: cover;
+	border-radius: 10px 10px 0px 0px;
+}
+
+/* Media Query */
+@media (max-width: 800px) {
+	.gallery_suplements {
+		flex-wrap: wrap;
+	}
+	.gallery_suplements img {
+		width: 47%;
+		margin-bottom: 20px;
+	}
+}

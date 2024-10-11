@@ -1,0 +1,48 @@
+.websitebgc {
+	width: 100%;
+	min-height: 100vh;
+	background: linear-gradient(rgba(7, 0, 62, 0.7), rgba(7, 0, 62, 0.6)),
+		url('../../assets/websitebgc.png');
+	background-position: center;
+	background-size: cover;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.websitegbc-text {
+	text-align: center;
+	max-width: 500px;
+}
+
+.websitegbc-text h1 {
+	font-size: 55px;
+	font-weight: 500;
+}
+
+.websitegbc-text p {
+	line-height: 1.4;
+	max-width: 850px;
+	margin: 25px auto 35px;
+}
+
+/* Media Query */
+
+@media (max-width: 850px) {
+	.websitegbc-text h1 {
+		font-size: 40px;
+	}
+}
+
+@media (max-width: 650px) {
+	.websitegbc-text h1 {
+		font-size: 25px;
+		max-width: 450px;
+		margin: auto;
+	}
+	.websitegbc-text p {
+		font-size: 14px;
+		margin: 18px auto 35px;
+	}
+}

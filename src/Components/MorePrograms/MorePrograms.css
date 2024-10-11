@@ -1,0 +1,27 @@
+.more-programs {
+	padding: 40px;
+	text-align: center;
+}
+
+.more-programs h1 {
+	color: #ff9966;
+	font-size: 2.5rem;
+	margin-bottom: 20px;
+}
+
+.more-programs p {
+	font-size: 1.2rem;
+	color: #656464;
+	margin-bottom: 20px;
+}
+
+.more-programs ul {
+	list-style: none;
+	padding: 0;
+}
+
+.more-programs ul li {
+	font-size: 1.2rem;
+	color: #333;
+	margin-bottom: 10px;
+}
