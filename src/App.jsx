@@ -39,5 +39,6 @@ const Home = () => {
 		</>
 	);
 };
+console.log('abc');
 
 export default App;
