@@ -1,5 +1,5 @@
 import React from 'react';
-
+import ExerciseComponent from '../Styled-components-for-pages/styled-components';
 const MorePrograms = () => {
 	return (
 		<div className='more-programs'>
