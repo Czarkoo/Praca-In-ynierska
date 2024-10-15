@@ -6,10 +6,8 @@ const websitebgc = () => {
 	return (
 		<div className='websitebgc container'>
 			<div className='websitegbc-text'>
-				<h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
-				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, quis?
-				</p>
+				<h1>Od Teraz Ćwiczenie to przyjemność</h1>
+				<p>Aplikacja wspierająca entuzjastów fitness'u</p>
 				<button className='btn'>
 					Show more <img src={arrow_right} alt='' />
 				</button>

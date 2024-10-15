@@ -12,6 +12,8 @@ const ExerciseComponent = ({ title, description, imageUrl }) => {
 				<p>{description}</p>
 				<ul>
 					<li> → tutaj możesz dodać szczegóły ćwiczenia</li>
+					<li> → tutaj możesz dodać szczegóły ćwiczenia</li>
+					<li> → tutaj możesz dodać szczegóły ćwiczenia</li>
 				</ul>
 			</div>
 		</div>
