@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ExerciseComponent = ({ title, description, imageUrl }) => {
+const ExerciseComponent = ({ title, description, description2, description3, imageUrl }) => {
 	return (
 		<div className='more-programs'>
 			<div className='more-programs-left'>
@@ -11,9 +11,10 @@ const ExerciseComponent = ({ title, description, imageUrl }) => {
 				<h2>Opis ćwiczenia:</h2>
 				<p>{description}</p>
 				<ul>
-					<li> → tutaj możesz dodać szczegóły ćwiczenia</li>
-					<li> → tutaj możesz dodać szczegóły ćwiczenia</li>
-					<li> → tutaj możesz dodać szczegóły ćwiczenia</li>
+					<li> → Szczegóły dotyczące zaangażowania mięśni</li>
+					<p>{description2}</p>
+					<li> → Kontrola Ruchu </li>
+                    <p>{description3}</p>
 				</ul>
 			</div>
 		</div>

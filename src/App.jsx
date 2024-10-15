@@ -31,7 +31,7 @@ const App = () => {
 const Home = () => {
 	return (
 		<>
-			<Title subTitle='Excercise for biceps' Title='How To Do That' />
+			<Title subTitle='Excercise' Title='How To Do That' />
 			<Programs />
 			<Facts_Myths />
 			<Title subTitle='Supplements' Title='Products Worth Attention' />
