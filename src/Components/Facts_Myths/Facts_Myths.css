@@ -13,6 +13,7 @@
 
 .myths-right {
 	flex-basis: 55%;
+	margin-left: 20px;
 }
 
 .facts-img {
