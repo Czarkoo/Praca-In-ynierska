@@ -15,6 +15,7 @@
 
 .more-programs-right {
 	flex-basis: 55%;
+	margin-top: 40px;
 }
 
 .exercise1 {
@@ -23,14 +24,15 @@
 }
 
 .more-programs h3 {
-	color: #535927;
+	color: #006174;
 	font-size: 22px;
 	margin-bottom: 20px;
+	text-transform: uppercase;
 }
 
 .more-programs h2 {
 	font-size: 28px;
-	color: #3B5243;
+	color: #00a1c1;
 	margin-bottom: 20px;
 }
 
@@ -51,7 +53,7 @@
 }
 .exercise-section h1 {
 	text-align: center;
-	color: #e4540c;
+	color: #00819a;
 	font-size: 50px;
-	margin-bottom: 140px;
+	margin-bottom: 100px;
 }

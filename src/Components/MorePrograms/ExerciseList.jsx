@@ -13,17 +13,17 @@ const ExerciseList = () => {
 			ImageUrl: facts_myths_image1,
 		},
 		{
-			Title: 'Ćwiczenie: Uginanie ramion stojąc',
+			Title: 'Uginanie ramion stojąc',
 			Description: 'tutaj bedzie opis ćwiczenia',
 			ImageUrl: facts_myths_image1,
 		},
 		{
-			Title: 'Ćwiczenie: Uginanie ramion stojąc',
+			Title: 'Uginanie ramion stojąc',
 			Description: 'tutaj bedzie opis ćwiczenia',
 			ImageUrl: facts_myths_image1,
 		},
 		{
-			Title: 'Ćwiczenie: Uginanie ramion stojąc',
+			Title: 'Uginanie ramion stojąc',
 			Description: 'tutaj bedzie opis ćwiczenia',
 			ImageUrl: facts_myths_image1,
 		},
@@ -34,17 +34,17 @@ const ExerciseList = () => {
 			ImageUrl: facts_myths_image1,
 		},
 		{
-			Title: 'Ćwiczenie: Uginanie ramion stojąc',
+			Title: 'Uginanie ramion stojąc',
 			Description: 'tutaj bedzie opis ćwiczenia',
 			ImageUrl: facts_myths_image1,
 		},
 		{
-			Title: 'Ćwiczenie: Uginanie ramion stojąc',
+			Title: 'Uginanie ramion stojąc',
 			Description: 'tutaj bedzie opis ćwiczenia',
 			ImageUrl: facts_myths_image1,
 		},
 		{
-			Title: 'Ćwiczenie: Uginanie ramion stojąc',
+			Title: 'Uginanie ramion stojąc',
 			Description: 'tutaj bedzie opis ćwiczenia',
 			ImageUrl: facts_myths_image1,
 		},
@@ -55,17 +55,17 @@ const ExerciseList = () => {
 			ImageUrl: facts_myths_image1,
 		},
 		{
-			Title: 'Ćwiczenie: Uginanie ramion stojąc',
+			Title: 'Uginanie ramion stojąc',
 			Description: 'tutaj bedzie opis ćwiczenia',
 			ImageUrl: facts_myths_image1,
 		},
 		{
-			Title: 'Ćwiczenie: Uginanie ramion stojąc',
+			Title: 'Uginanie ramion stojąc',
 			Description: 'tutaj bedzie opis ćwiczenia',
 			ImageUrl: facts_myths_image1,
 		},
 		{
-			Title: 'Ćwiczenie: Uginanie ramion stojąc',
+			Title: 'Uginanie ramion stojąc',
 			Description: 'tutaj bedzie opis ćwiczenia',
 			ImageUrl: facts_myths_image1,
 		},
@@ -76,17 +76,17 @@ const ExerciseList = () => {
 			ImageUrl: facts_myths_image1,
 		},
 		{
-			Title: 'Ćwiczenie: Uginanie ramion stojąc',
+			Title: 'Uginanie ramion stojąc',
 			Description: 'tutaj bedzie opis ćwiczenia',
 			ImageUrl: facts_myths_image1,
 		},
 		{
-			Title: 'Ćwiczenie: Uginanie ramion stojąc',
+			Title: 'Uginanie ramion stojąc',
 			Description: 'tutaj bedzie opis ćwiczenia',
 			ImageUrl: facts_myths_image1,
 		},
 		{
-			Title: 'Ćwiczenie: Uginanie ramion stojąc',
+			Title: 'Uginanie ramion stojąc',
 			Description: 'tutaj bedzie opis ćwiczenia',
 			ImageUrl: facts_myths_image1,
 		},
