@@ -8,7 +8,8 @@ const ExerciseList = () => {
 		{
 			section: 'Biceps',
 			Title: 'Uginanie ramion stojąc',
-			Description: 'tutaj bedzie opis ćwiczenia',
+			Description:
+				'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada. Nulla facilisi. Nam consectetur, libero at egestas aliquam, lorem urna auctor libero, sit amet cursus risus nulla vitae velit. Integer ac dui.',
 			ImageUrl: facts_myths_image1,
 		},
 		{

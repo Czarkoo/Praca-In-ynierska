@@ -4,7 +4,7 @@ const ExerciseComponent = ({ title, description, imageUrl }) => {
 	return (
 		<div className='more-programs'>
 			<div className='more-programs-left'>
-				<h1>{title}</h1>
+				<h3>{title}</h3>
 				<img src={imageUrl} alt={title} className='exercise1' />
 			</div>
 			<div className='more-programs-right'>

@@ -22,15 +22,15 @@
 	border-radius: 0px 15px 0px 15px;
 }
 
-.more-programs h1 {
-	color: #ffcc80;
-	font-size: 18px;
+.more-programs h3 {
+	color: #535927;
+	font-size: 22px;
 	margin-bottom: 20px;
 }
 
 .more-programs h2 {
 	font-size: 28px;
-	color: #ff9966;
+	color: #3B5243;
 	margin-bottom: 20px;
 }
 
@@ -44,4 +44,14 @@
 	font-size: 16px;
 	color: #333;
 	margin-bottom: 10px;
+}
+
+.exercise-section {
+	margin-top: 70px;
+}
+.exercise-section h1 {
+	text-align: center;
+	color: #e4540c;
+	font-size: 50px;
+	margin-bottom: 140px;
 }
