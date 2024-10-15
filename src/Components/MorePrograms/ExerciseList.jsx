@@ -1,9 +1,79 @@
 import React from 'react';
 import ExerciseComponent from './ExerciseComponent';
+import ExerciseSection from './ExerciseSection';
 import facts_myths_image1 from '../../assets/facts_myths_image1.png';
 
 const ExerciseList = () => {
 	const exercises = [
+		{
+			section: 'Biceps',
+			Title: 'Uginanie ramion stojąc',
+			Description: 'tutaj bedzie opis ćwiczenia',
+			ImageUrl: facts_myths_image1,
+		},
+		{
+			Title: 'Ćwiczenie: Uginanie ramion stojąc',
+			Description: 'tutaj bedzie opis ćwiczenia',
+			ImageUrl: facts_myths_image1,
+		},
+		{
+			Title: 'Ćwiczenie: Uginanie ramion stojąc',
+			Description: 'tutaj bedzie opis ćwiczenia',
+			ImageUrl: facts_myths_image1,
+		},
+		{
+			Title: 'Ćwiczenie: Uginanie ramion stojąc',
+			Description: 'tutaj bedzie opis ćwiczenia',
+			ImageUrl: facts_myths_image1,
+		},
+		{
+			section: 'Triceps',
+			Title: 'Uginanie ramion stojąc',
+			Description: 'tutaj bedzie opis ćwiczenia',
+			ImageUrl: facts_myths_image1,
+		},
+		{
+			Title: 'Ćwiczenie: Uginanie ramion stojąc',
+			Description: 'tutaj bedzie opis ćwiczenia',
+			ImageUrl: facts_myths_image1,
+		},
+		{
+			Title: 'Ćwiczenie: Uginanie ramion stojąc',
+			Description: 'tutaj bedzie opis ćwiczenia',
+			ImageUrl: facts_myths_image1,
+		},
+		{
+			Title: 'Ćwiczenie: Uginanie ramion stojąc',
+			Description: 'tutaj bedzie opis ćwiczenia',
+			ImageUrl: facts_myths_image1,
+		},
+		{
+			section: 'Plecy',
+			Title: 'Uginanie ramion stojąc',
+			Description: 'tutaj bedzie opis ćwiczenia',
+			ImageUrl: facts_myths_image1,
+		},
+		{
+			Title: 'Ćwiczenie: Uginanie ramion stojąc',
+			Description: 'tutaj bedzie opis ćwiczenia',
+			ImageUrl: facts_myths_image1,
+		},
+		{
+			Title: 'Ćwiczenie: Uginanie ramion stojąc',
+			Description: 'tutaj bedzie opis ćwiczenia',
+			ImageUrl: facts_myths_image1,
+		},
+		{
+			Title: 'Ćwiczenie: Uginanie ramion stojąc',
+			Description: 'tutaj bedzie opis ćwiczenia',
+			ImageUrl: facts_myths_image1,
+		},
+		{
+			section: 'Nogi',
+			Title: 'Uginanie ramion stojąc',
+			Description: 'tutaj bedzie opis ćwiczenia',
+			ImageUrl: facts_myths_image1,
+		},
 		{
 			Title: 'Ćwiczenie: Uginanie ramion stojąc',
 			Description: 'tutaj bedzie opis ćwiczenia',
@@ -23,12 +93,14 @@ const ExerciseList = () => {
 	return (
 		<div>
 			{exercises.map((exercise, index) => (
-				<ExerciseComponent
-					key={index}
-					title={exercise.Title}
-					description={exercise.Description}
-					imageUrl={exercise.ImageUrl}
-				/>
+				<ExerciseSection key={index} sectionTitle={exercise.section}>
+					<ExerciseComponent
+						key={index}
+						title={exercise.Title}
+						description={exercise.Description}
+						imageUrl={exercise.ImageUrl}
+					/>
+				</ExerciseSection>
 			))}
 		</div>
 	);
