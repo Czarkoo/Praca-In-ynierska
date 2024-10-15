@@ -13,14 +13,16 @@ import Websitebgc from './Components/Websitebgc/Websitebgc';
 const App = () => {
 	return (
 		<Router>
-			<Navbar />
-			<Websitebgc />
-			<div className='container'>
-				<Routes>
-					<Route path='/' element={<Home />} />
-					<Route path='programs' element={<Programs />} />
-					<Route path='more-programs' element={<MorePrograms />} />
-				</Routes>
+			<div id='/'>
+				<Navbar />
+				<Websitebgc />
+				<div className='container'>
+					<Routes>
+						<Route path='/' element={<Home />} />
+						<Route path='programs' element={<Programs />} />
+						<Route path='more-programs' element={<MorePrograms />} />
+					</Routes>
+				</div>
 			</div>
 		</Router>
 	);

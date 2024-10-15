@@ -24,13 +24,12 @@ const Navbar = () => {
 			<img src={logo} alt='' className='logo' />
 			<ul className={mobileMenu ? '' : 'mobile_menu'}>
 				<li>
-					<Link
-						to='program'
-						smooth={true}
-						offset={-290}
-						duration={500}
-						className='btn'
-					>
+					<Link to='/' smooth={true} offset={0} duration={500} className='btn'>
+						Home
+					</Link>
+				</li>
+				<li>
+					<Link to='program' smooth={true} offset={-290} duration={500}>
 						Ćwiczenia
 					</Link>
 				</li>
