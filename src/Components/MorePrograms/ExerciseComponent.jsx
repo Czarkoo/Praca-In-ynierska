@@ -1,6 +1,12 @@
 import React from 'react';
 
-const ExerciseComponent = ({ title, description, description2, description3, imageUrl }) => {
+const ExerciseComponent = ({
+	title,
+	description,
+	description2,
+	description3,
+	imageUrl,
+}) => {
 	return (
 		<div className='more-programs'>
 			<div className='more-programs-left'>
@@ -14,7 +20,7 @@ const ExerciseComponent = ({ title, description, description2, description3, ima
 					<li> → Szczegóły dotyczące zaangażowania mięśni</li>
 					<p>{description2}</p>
 					<li> → Kontrola Ruchu </li>
-                    <p>{description3}</p>
+					<p>{description3}</p>
 				</ul>
 			</div>
 		</div>
