@@ -8,6 +8,8 @@ import MorePrograms from './Components/MorePrograms/MorePrograms';
 import Suplements_and_nutrition from './Components/Suplements_and_nutrition/Suplements_and_nutrition';
 import Title from './Components/Title/Title';
 import Websitebgc from './Components/Websitebgc/Websitebgc';
+import { useEffect } from 'react';
+import { animateScroll as scroll } from 'react-scroll';
 
 const App = () => {
 	return (
@@ -31,12 +33,20 @@ const Home = () => {
 	return (
 		<>
 			<Title subTitle='Excercise' Title='How To Do That' />
-			<Programs />
-			<Facts_Myths />
+			<div id='program'>
+				<Programs />
+			</div>
+			<div id='facts_myths'>
+				<Facts_Myths />
+			</div>
 			<Title subTitle='Supplements' Title='Products Worth Attention' />
-			<Suplements_and_nutrition />
+			<div id='suplements'>
+				<Suplements_and_nutrition />
+			</div>
 			<Title subTitle='Opinie' Title='Informacje odnośnie strony' />
-			<ClientsSlider />
+			<div id='slider-container'>
+				<ClientsSlider />
+			</div>
 		</>
 	);
 };

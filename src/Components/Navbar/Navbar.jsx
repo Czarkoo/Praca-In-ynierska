@@ -28,17 +28,57 @@ const Navbar = () => {
 			navigate('/');
 
 			setTimeout(() => {
-				if (sectionId === 'home') {
-					scroll.scrollToTop();
-				} else if (sectionId) {
-					scroll.scrollTo(sectionId);
+				let yOffset = -350; // Dodany offset, aby uniknąć zasłaniania sekcji przez nawigację
+
+				if (sectionId === 'program') {
+					const section = document.getElementById('program');
+					if (section) {
+						const y =
+							section.getBoundingClientRect().top +
+							window.pageYOffset +
+							yOffset;
+						window.scrollTo({ top: y, behavior: 'smooth' });
+					}
+				} else if (sectionId === 'facts_myths') {
+					const section = document.getElementById('facts_myths');
+					if (section) {
+						const y =
+							section.getBoundingClientRect().top +
+							window.pageYOffset +
+							yOffset;
+						window.scrollTo({ top: y, behavior: 'smooth' });
+					}
+				} else if (sectionId === 'suplements') {
+					const section = document.getElementById('suplements');
+					if (section) {
+						const y =
+							section.getBoundingClientRect().top +
+							window.pageYOffset +
+							yOffset;
+						window.scrollTo({ top: y, behavior: 'smooth' });
+					}
+				} else if (sectionId === 'slider-container') {
+					const section = document.getElementById('slider-container');
+					if (section) {
+						const y =
+							section.getBoundingClientRect().top +
+							window.pageYOffset +
+							yOffset;
+						window.scrollTo({ top: y, behavior: 'smooth' });
+					}
 				}
-			}, 100);
+			}, 400);
 		} else {
 			if (sectionId === 'home') {
 				scroll.scrollToTop();
-			} else if (sectionId) {
-				scroll.scrollTo(sectionId);
+			} else {
+				let yOffset = -200; // Dodany offset również w przypadku nawigacji na tej samej stronie
+				const section = document.getElementById(sectionId);
+				if (section) {
+					const y =
+						section.getBoundingClientRect().top + window.pageYOffset + yOffset;
+					window.scrollTo({ top: y, behavior: 'smooth' });
+				}
 			}
 		}
 	};
@@ -49,13 +89,13 @@ const Navbar = () => {
 			<img src={logo} alt='' className='logo' />
 			<ul className={mobileMenu ? '' : 'mobile_menu'}>
 				<li>
-					<Link
+					<ScrollLink
 						to='/'
 						onClick={() => handleNavClick('home')}
 						className='btn'
 					>
 						Home
-					</Link>
+					</ScrollLink>
 				</li>
 				<li>
 					<ScrollLink
