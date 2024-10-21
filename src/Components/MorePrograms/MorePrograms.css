@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 .more-programs {
 	margin: 110px auto;
 	display: flex;
@@ -6,6 +7,8 @@
 }
 
 .more-programs-left {
+	display: flex;
+	flex-direction: column;
 	flex-basis: 40%;
 	position: relative;
 	text-align: center;
@@ -27,6 +30,8 @@
 .exercise1 {
 	width: 75%;
 	border-radius: 15px;
+	box-shadow: 0 0 15px black;
+	max-width: 500px;
 }
 
 .more-programs h3 {
@@ -64,10 +69,29 @@
 	margin-bottom: 100px;
 }
 
+.button-moreprograms {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-top: 50px;
+}
 
-button {
-	margin: 10px;
-	padding: 10px 20px;
-	font-size: 16px;
+button{
+	margin: 50px 25px 15px;
+	background: #96D2D9;
+	color: #F2F2F2;
+	padding: 15px 33px;
+	font-size: 22px;
+	border: 0;
+	outline: 0;
+	border-radius: 20px;
 	cursor: pointer;
+	text-transform: uppercase;
+	transition: 0.3s;
+	box-shadow: 0 0 20px #012840;
+}
+
+button:hover{
+ background: #012840;
 }

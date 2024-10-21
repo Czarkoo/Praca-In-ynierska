@@ -8,8 +8,6 @@ import MorePrograms from './Components/MorePrograms/MorePrograms';
 import Suplements_and_nutrition from './Components/Suplements_and_nutrition/Suplements_and_nutrition';
 import Title from './Components/Title/Title';
 import Websitebgc from './Components/Websitebgc/Websitebgc';
-import { useEffect } from 'react';
-import { animateScroll as scroll } from 'react-scroll';
 
 const App = () => {
 	return (
