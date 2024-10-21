@@ -8,7 +8,7 @@ import Uginanie_na_lawce_skosnej_siedzac_w_odchyleniu from '../../assets/Uginani
 import uginanie_ze_sztanga_stojac from '../../assets/uginanie_ze_sztanga_stojac.webp';
 import prostowanie_warkocz from '../../assets/prostowanie_warkocz.webp';
 import wyprost_nachwyt from '../../assets/wyprost_nachwyt.webp';
-const ExerciseList = () => {
+const ExerciseList = ({click}) => {
 	const exercises = [
 		{
 			section: 'Biceps',
@@ -151,9 +151,14 @@ const ExerciseList = () => {
 			Description3: 'Podczas tego ćwiczenia angażowane są również mięśnie przywodziciele ud, które stabilizują ruch, a także mięśnie łydek, które pracują nad równowagą i stabilnością. Dodatkowo, angażując core, czyli mięśnie brzucha i dolnej części pleców, zapewniasz sobie lepszą stabilizację podczas całego ruchu. Regularne wykonywanie cyclist squat przyczynia się do zwiększenia siły i masy mięśniowej nóg, poprawy mobilności oraz ogólnej wydolności, co może być korzystne dla sportowców oraz osób aktywnych fizycznie.',
 		},
 	];
+
+	const filteredExercises = click ? exercises.filter((exercise) => exercise.section === click) : exercises;
+
+
+
 	return (
 		<div>
-			{exercises.map((exercise, index) => (
+			{filteredExercises.map((exercise, index) => (
 				<ExerciseSection key={index} sectionTitle={exercise.section}>
 					<ExerciseComponent
 						key={index}

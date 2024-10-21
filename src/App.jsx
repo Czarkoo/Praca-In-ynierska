@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import ClientsSlider from './Components/Client/ClientsSlider';
 import Facts_Myths from './Components/Facts_Myths/Facts_Myths';
 import Navbar from './Components/Navbar/Navbar';
-// import Opinions from './Components/Opinions/Opinions';
 import Programs from './Components/Programs/Programs';
 import MorePrograms from './Components/MorePrograms/MorePrograms';
 import Suplements_and_nutrition from './Components/Suplements_and_nutrition/Suplements_and_nutrition';
@@ -19,7 +18,7 @@ const App = () => {
 				<div className='container'>
 					<Routes>
 						<Route path='/' element={<Home />} />
-						<Route path='programs' element={<Programs />} />
+						{/* <Route path='programs' element={<Programs />} /> */}
 						<Route path='more-programs' element={<MorePrograms />} />
 					</Routes>
 				</div>
@@ -41,6 +40,5 @@ const Home = () => {
 		</>
 	);
 };
-console.log('abc');
 
 export default App;

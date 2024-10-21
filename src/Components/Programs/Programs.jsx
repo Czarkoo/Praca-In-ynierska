@@ -34,7 +34,7 @@ const Programs = () => {
 					</div>
 				</div>
 			</div>
-			<Link to='/more-programs'>
+			<Link to='more-programs'>
 				<button className='btn dark-btn'>
 					Read More
 					<img src={arrow_right} alt='' />
