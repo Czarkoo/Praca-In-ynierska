@@ -16,21 +16,42 @@ const Programs = () => {
 					<img src={program_biceps} alt='' />
 					<div className='caption'>
 						<img src={dumbbell} alt='' />
-						<p className='text-p'>Uginanie ramion stojąc</p>
+						<p className='text-p'>
+							Witaj! Poniżej znajdziesz przycisk, który przeniesie Cię do
+							zestawu ćwiczeń. Znajdziesz tam szczegółowe opisy oraz ćwiczenia,
+							które pomogą Ci w efektywnym treningu kluczowych partii
+							mięśniowych, takich jak nogi, biceps, triceps i plecy. Każda z
+							tych grup mięśniowych została starannie dobrana, aby zapewnić
+							wszechstronny rozwój i poprawę siły.
+						</p>
 					</div>
 				</div>
 				<div className='program'>
 					<img src={program_biceps1} alt='' />
 					<div className='caption'>
 						<img src={heart} alt='' />
-						<p className='text-p'>Podciąganie podchwytem</p>
+						<p className='text-p'>
+							W sumie przygotowaliśmy dla Ciebie cztery ćwiczenia na każdą z
+							wymienionych partii, które możesz wykonywać zarówno w domu, jak i
+							na siłowni. Dzięki różnorodności ćwiczeń, zyskasz możliwość
+							dopasowania treningu do swoich indywidualnych potrzeb i poziomu
+							zaawansowania.
+						</p>
 					</div>
 				</div>
 				<div className='program'>
 					<img src={program_biceps2} alt='' />
 					<div className='caption'>
 						<img src={medal} alt='' />
-						<p className='text-p'>Biceps hantlami z rotacją nadgarstka</p>
+						<p className='text-p'>
+							Zastosowanie odpowiedniej techniki oraz regularność to kluczowe
+							elementy skutecznego treningu, dlatego zachęcamy do dokładnego
+							zapoznania się z opisami każdego ćwiczenia. Niezależnie od tego,
+							czy chcesz zwiększyć masę mięśniową, poprawić swoją wydolność, czy
+							po prostu utrzymać dobrą kondycję, nasze propozycje z pewnością Ci
+							w tym pomogą. Kliknij przycisk poniżej i rozpocznij swoją przygodę
+							z treningiem!
+						</p>
 					</div>
 				</div>
 			</div>

@@ -104,6 +104,7 @@ const Navbar = () => {
 						offset={-290}
 						duration={500}
 						onClick={() => handleNavClick('program')}
+						className='btn'
 					>
 						Ćwiczenia
 					</ScrollLink>
@@ -115,6 +116,7 @@ const Navbar = () => {
 						offset={-150}
 						duration={500}
 						onClick={() => handleNavClick('facts_myths')}
+						className='btn'
 					>
 						Fakty | Mity
 					</ScrollLink>
@@ -126,6 +128,7 @@ const Navbar = () => {
 						offset={-290}
 						duration={500}
 						onClick={() => handleNavClick('suplements')}
+						className='btn'
 					>
 						Suplementy | Odżywianie
 					</ScrollLink>
@@ -137,6 +140,7 @@ const Navbar = () => {
 						offset={-150}
 						duration={500}
 						onClick={() => handleNavClick('slider-container')}
+						className='btn'
 					>
 						Opinie
 					</ScrollLink>

@@ -9,6 +9,7 @@
 	display: flex;
 	justify-content: space-between;
 	width: 100%;
+	align-items: center;
 }
 .program img {
 	width: 100%;
@@ -29,9 +30,9 @@
 	left: 0;
 	bottom: 0;
 	right: 0;
+	opacity: 0;
 	display: flex;
 	align-items: center;
-	opacity: 0;
 	justify-content: center;
 	flex-direction: column;
 	color: #fff;
@@ -41,6 +42,7 @@
 }
 
 .program:hover .caption {
+	box-shadow: 0 0 20px #012840;
 	opacity: 1;
 	padding-bottom: 0;
 }
@@ -51,12 +53,9 @@
 }
 
 .text-p {
-	color: #ff9966;
+	color: rgb(249, 242, 242);
 	text-align: center;
-}
-
-img {
-	color: #ff9966;
+	font-size: 18px;
 }
 
 .programs button {
