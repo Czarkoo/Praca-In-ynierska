@@ -24,7 +24,7 @@ a {
 	margin: 0px 5px;
 }
 
-.btn:hover {
+.btn{
 	background-color: #fff;
 	color: #212121;
 	padding: 12px 30px;	
@@ -38,7 +38,6 @@ a {
 	align-items: center;
 	justify-content: center;
 	cursor: pointer;
-	transition: 0.5s;
 }
 
 .btn.dark-btn {

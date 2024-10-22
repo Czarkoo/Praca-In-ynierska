@@ -1,5 +1,6 @@
 import React from 'react';
 import './Facts_Myths.css';
+import {Link} from 'react-router-dom';
 import facts_myths_image1 from '../../assets/facts_myths_image1.png';
 import read from '../../assets/read.svg';
 import arrow_right from '../../assets/arrow_right.svg';
@@ -8,7 +9,7 @@ const Facts_Myths = () => {
 		<div className='facts_myths'>
 			<div className='facts-left'>
 				<img src={facts_myths_image1} alt='' className='facts-img' />
-				<img src={read} alt='' className='read-img' />
+				{/* <img src={read} alt='' className='read-img' /> */}
 			</div>
 			<div className='myths-right'>
 				<h3>Fakty Oraz Mity</h3>
@@ -27,10 +28,13 @@ const Facts_Myths = () => {
 					fugiat eius laboriosam quo quasi sit soluta. Maiores laborum, ea dicta
 					corporis culpa numquam, quos non dolorem, dignissimos optio itaque.
 				</p>
-				<button className='btn dark-btn'>
-					Read More
-					<img src={arrow_right} alt='' />
-				</button>
+				
+				<Link to='MoreFacts_Myths'>
+					<button className='btn dark-btn'>
+						Read More
+						<img src={arrow_right} alt='' />
+					</button>
+				</Link>
 			</div>
 		</div>
 	);
