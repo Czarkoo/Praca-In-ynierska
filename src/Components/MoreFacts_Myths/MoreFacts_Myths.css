@@ -1,0 +1,31 @@
+.MoreFacts{
+    margin: 110px auto;
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+}
+
+.MoreFacts_top, .MoreMyths_top {
+    display: flex;
+	flex-basis: 100%;
+	position: relative;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+
+.MoreFacts_left, .MoreMyths_left {
+    display: flex;
+	flex-direction: column;
+	flex-basis: 40%;
+	position: relative;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.MoreFacts_right, .MoreMyths_right {
+    flex-basis: 55%;
+
+}

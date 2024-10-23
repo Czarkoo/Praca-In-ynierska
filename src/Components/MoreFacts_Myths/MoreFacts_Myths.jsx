@@ -1,11 +1,23 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './MoreFacts_Myths.css';
-import DescriptionMoreFacts from './DescriptionMoreFacts';
+import ButtonFactsMyths from './ButtonFactsMyths';
+import ListMoreFacts_Myths from './ListMoreFacts_Myths';
 
 const MoreFacts_Myths = () => {
-	return <div>
-       
-    </div>;
+	const [click, setClick] = useState('');
+
+	const handleButtonFactsMyths = (newClick) => {
+		setClick(newClick);
+	};
+
+	return (
+		<div>
+			<div>
+				<ButtonFactsMyths onButtonChange={handleButtonFactsMyths} />
+				<ListMoreFacts_Myths click={click}/>
+			</div>
+		</div>
+	);
 };
 
 export default MoreFacts_Myths;

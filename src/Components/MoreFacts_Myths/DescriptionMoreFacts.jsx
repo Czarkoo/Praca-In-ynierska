@@ -23,6 +23,18 @@ const DescriptionMoreFacts = ({
             <div className="MoreFacts_right">
                 <p className={description3}></p>
             </div>
+            <div className="MoreMyths_top">
+            <h1 className='title'>{title}Opisz Faktu | mitu</h1>
+            </div>
+            
+            <div className="MoreMyths_left">
+                <p className={description2}></p>
+            </div>
+            <div className="MoreMyths_right">
+                <img src={IconUrl} alt="" />
+                <h2 className="subTitle">{subTitle}</h2>
+                <p className={description3}></p>
+            </div>
           </div>
           );
         }; 
