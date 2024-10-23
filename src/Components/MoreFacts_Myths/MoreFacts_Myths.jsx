@@ -10,13 +10,11 @@ const MoreFacts_Myths = () => {
 		setClick(newClick);
 	};
 
-	return (
-		<div>
+	return (		
 			<div>
 				<ButtonFactsMyths onButtonChange={handleButtonFactsMyths} />
 				<ListMoreFacts_Myths click={click}/>
 			</div>
-		</div>
 	);
 };
 
