@@ -8,6 +8,10 @@ import Uginanie_na_lawce_skosnej_siedzac_w_odchyleniu from '../../assets/Uginani
 import uginanie_ze_sztanga_stojac from '../../assets/uginanie_ze_sztanga_stojac.webp';
 import prostowanie_warkocz from '../../assets/prostowanie_warkocz.webp';
 import wyprost_nachwyt from '../../assets/wyprost_nachwyt.webp';
+import Francuskie_wyciskanie_sztangi from '../../assets/Francuskie_wyciskanie_sztangi.webp'
+import martwy_ciag_klasyczny from '../../assets/martwy_ciag_klasyczny.webp';
+import wykroki from '../../assets/wykroki.jfif'
+import smith from '../../assets/smith.jfif'
 const ExerciseList = ({click}) => {
 	const exercises = [
 		{
@@ -59,7 +63,7 @@ const ExerciseList = ({click}) => {
 			Title: 'Francuskie wyciskanie sztangi łamanej na ławce poziomej',
 			Description:
 				'Francuskie wyciskanie sztangi łamanej na ławce poziomej, zwane również "triceps extension", to jedno z najbardziej efektywnych ćwiczeń izolujących triceps. Wykonywane w pozycji leżącej na ławce poziomej, pozwala na pełną koncentrację na pracy mięśni trójgłowych ramienia, co czyni je kluczowym elementem w treningu górnych partii ciała, zwłaszcza dla osób chcących rozbudować masę i siłę tricepsów.',
-			ImageUrl: facts_myths_image1,
+			ImageUrl: Francuskie_wyciskanie_sztangi,
 			Description2:
 				'Głównym mięśniem pracującym w tym ćwiczeniu jest triceps brachii, który odpowiada za prostowanie ramienia w stawie łokciowym. Triceps składa się z trzech głów: długiej, bocznej i przyśrodkowej. Francuskie wyciskanie na ławce poziomej angażuje wszystkie te części, ale szczególnie intensywnie pracuje głowa długa tricepsa, która biegnie od łopatki do łokcia i odpowiada za rozciąganie i prostowanie ramienia. Dzięki temu, że sztanga łamana jest używana w tym ćwiczeniu, nadgarstki są w bardziej ergonomicznej pozycji niż przy prostych sztangach, co zmniejsza ryzyko nadmiernego obciążenia stawów i zapewnia większy komfort. Ćwiczenie to dodatkowo angażuje mięśnie stabilizujące, takie jak mięśnie naramienne oraz mięśnie piersiowe, które pomagają utrzymać stabilność ramion i tułowia podczas ruchu. Mięśnie przedramion również pracują, stabilizując nadgarstki i sztangę w trakcie opuszczania i unoszenia ciężaru.',
 			Description3:
@@ -102,7 +106,7 @@ const ExerciseList = ({click}) => {
 			section: 'Plecy',
 			Title: 'Martyw ciąg klasyczny',
 			Description: 'Martwy ciąg klasyczny to fundamentalne ćwiczenie siłowe, które angażuje wiele grup mięśniowych, rozwijając ogólną siłę i wytrzymałość. To jedno z najważniejszych ćwiczeń w treningu siłowym, szczególnie cenione za swoje wszechstronne oddziaływanie na dolną część ciała, plecy oraz mięśnie posturalne. Jego poprawne wykonanie wymaga odpowiedniej techniki, aby uniknąć kontuzji i maksymalnie zaangażować mięśnie docelowe.',
-			ImageUrl: facts_myths_image1,
+			ImageUrl: martwy_ciag_klasyczny,
 			Description2: 'Główne zaangażowane mięśnie to prostowniki grzbietu, które odpowiadają za utrzymanie neutralnej pozycji kręgosłupa i stabilizację pleców podczas całego ruchu. Mięśnie pośladkowe wielkie są silnie zaangażowane w wyprost bioder, szczególnie w końcowej fazie ruchu. Mięśnie czworogłowe uda aktywują się głównie w początkowej fazie ruchu, podczas wyprostu kolan. Mięśnie dwugłowe uda pracują w fazie opuszczania sztangi, kontrolując zgięcie bioder i kolan. Mięśnie stabilizujące brzuch wspomagają stabilizację tułowia i ochronę dolnej części pleców. Mięśnie najszersze grzbietu oraz trapezius utrzymują sztangę blisko ciała i pomagają stabilizować górną część pleców.',
 			Description3: 'Ruch zaczyna się od wyprostowania kolan i bioder, unosząc sztangę w górę, jednocześnie utrzymując ją blisko ciała. W tej fazie aktywnie pracują mięśnie czworogłowe uda, mięśnie pośladkowe wielkie oraz mięśnie prostowniki grzbietu. Kontrola ruchu w martwym ciągu to kluczowy element – należy unikać zbyt gwałtownego wyprostowania tułowia, które może prowadzić do nadmiernego obciążenia dolnej części pleców. W momencie, gdy sztanga mija kolana, ruch wyprostowania tułowia i bioder powinien być zsynchronizowany, tak aby zaangażować również mięśnie pośladków i prostowników grzbietu. Technika i kontrola ruchu w martwym ciągu są kluczowe, ponieważ obciążenia mogą być bardzo duże, co zwiększa ryzyko kontuzji przy niepoprawnym wykonaniu. Pierwszym priorytetem jest utrzymanie neutralnej krzywizny kręgosłupa przez cały czas trwania ćwiczenia. Zaokrąglone plecy zwiększają nacisk na kręgosłup, co może prowadzić do urazów. Ruch powinien być kontrolowany od początku do końca – zarówno faza unoszenia (koncentryczna), jak i opuszczania (ekscentryczna). Częstym błędem jest wykonywanie ruchu zbyt dynamicznie, co może powodować przeciążenie stawów lub zmniejszenie aktywacji mięśni docelowych. Bardzo ważne jest, aby sztanga poruszała się w linii prostej, blisko ciała – to minimalizuje obciążenie dolnej części pleców i maksymalizuje efektywność ćwiczenia.',
 		},
@@ -134,7 +138,7 @@ const ExerciseList = ({click}) => {
 			section: 'Nogi',
 			Title: 'Wykroki',
 			Description: 'Wykroki to efektywne ćwiczenie angażujące głównie mięśnie dolnych partii ciała, w tym uda, pośladki oraz łydki. Aby wykonać wykrok, zaczynamy w pozycji stojącej z nogami ustawionymi na szerokość bioder. Wykonując krok do przodu jedną nogą, zginamy kolano, a druga noga pozostaje na miejscu. Ważne jest, aby zachować prostą postawę, a kolano nogi z przodu nie powinno przekraczać linii palców, aby uniknąć kontuzji.',
-			ImageUrl: facts_myths_image1,
+			ImageUrl: wykroki,
 			Description2: 'Podczas ruchu, mięsień czworogłowy uda (quadriceps) jest intensywnie zaangażowany w zginanie nogi z przodu oraz w powrocie do pozycji wyjściowej. Mięśnie pośladkowe, zwłaszcza mięsień wielki pośladkowy (gluteus maximus), odgrywają kluczową rolę w stabilizacji ciała oraz w wyproście nogi. Równocześnie mięśnie przywodziciele ud oraz mięśnie łydek również są aktywne, co przyczynia się do stabilności w trakcie ruchu.',
 			Description3: 'Po zakończeniu wykroku, wracamy do pozycji wyjściowej i możemy powtórzyć ćwiczenie na drugą nogę. Wykroki można modyfikować, dodając obciążenie, na przykład trzymając hantle w rękach lub korzystając z sztangi, co zwiększa intensywność treningu i angażuje mięśnie jeszcze bardziej. Regularne wykonywanie wykroków przyczynia się do wzmocnienia i ujędrnienia nóg oraz poprawy równowagi i koordynacji.',
 		},
@@ -150,7 +154,7 @@ const ExerciseList = ({click}) => {
 			section: 'Nogi',
 			Title: 'Smith',
 			Description: 'Przysiady na maszynie Smith to popularne ćwiczenie, które koncentruje się na wzmocnieniu dolnych partii ciała, w tym mięśni ud, pośladków oraz łydek. Aby wykonać to ćwiczenie, należy ustawić się na platformie pod sztangą maszyny Smith, opierając ją na górnej części pleców, tuż nad barkami. Stopy powinny być ustawione na szerokość bioder, a palce lekko skierowane na zewnątrz.',
-			ImageUrl: facts_myths_image1,
+			ImageUrl: smith,
 			Description2: 'Podczas przysiadu intensywnie pracują mięśnie czworogłowe uda, które są odpowiedzialne za prostowanie kolan, a także mięśnie pośladkowe, zwłaszcza mięsień wielki pośladkowy, który wspiera ruch w górę. Mięśnie przywodziciele ud również są zaangażowane, stabilizując ruch i pomagając w utrzymaniu odpowiedniej pozycji ciała. Dodatkowo, mięśnie łydek (głównie mięsień brzuchaty łydki) również pracują, aby pomóc w stabilizacji stóp.',
 			Description3: 'Rozpoczynając ruch, schodzisz w dół, zginając kolana i wypychając biodra do tyłu, jakbyś chciał usiąść na niewidzialnym krześle. W trakcie tego ruchu ważne jest, aby utrzymać plecy proste i nie zaokrąglać ich, co pomoże w zachowaniu stabilności oraz uniknięciu kontuzji. Gdy udan osiągną równoległość z podłogą lub schodzisz nieco niżej, zaczynasz powrót do pozycji wyjściowej, prostując nogi i napinając mięśnie pośladkowe oraz udowe. Korzystanie z maszyny Smith zapewnia większą kontrolę nad ruchem i stabilizację, co sprawia, że przysiady na tej maszynie są dobrym wyborem dla osób, które dopiero zaczynają swoją przygodę z treningiem siłowym lub chcą skupić się na technice. Regularne wykonywanie przysiadów na maszynie Smith przyczynia się do zwiększenia siły, masy mięśniowej oraz poprawy ogólnej wydolności dolnych partii ciała.',
 		},
