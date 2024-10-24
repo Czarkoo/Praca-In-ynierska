@@ -29,7 +29,7 @@ const Facts_Myths = () => {
 					corporis culpa numquam, quos non dolorem, dignissimos optio itaque.
 				</p>
 				
-				<Link to='MoreFacts_Myths'>
+				<Link to='MoreaboutFactsMyths'>
 					<button className='btn dark-btn'>
 						Read More
 						<img src={arrow_right} alt='' />

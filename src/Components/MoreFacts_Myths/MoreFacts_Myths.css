@@ -1,35 +1,44 @@
-.MoreFacts{
-    margin: 110px auto;
-    display: flex;
-    width: 90%;
-    justify-content: space-between;
+.MoreFacts {
+	margin: 110px auto;
+	display: flex;
+	width: 90%;
+	justify-content: space-between;
+	position: relative;
 }
 
-.MoreFacts_top, .MoreMyths_top {
-    display: flex;
+.MoreFacts_top,
+.MoreMyths_top {
+	display: flex;
 	flex-basis: 100%;
-	position: relative;
 	text-align: center;
 	justify-content: center;
 	align-items: center;
+	position: relative; /* Zmieniono z absolute na relative */
 }
 
-.MoreFacts_left, .MoreMyths_left {
-    display: flex;
+.MoreFacts_left,
+.MoreMyths_left {
+	display: flex;
 	flex-direction: column;
 	flex-basis: 40%;
 	position: relative;
 	text-align: center;
 	justify-content: center;
 	align-items: center;
-
 }
 
-.MoreFacts_right, .MoreMyths_right {
-    flex-basis: 55%;
-
+.MoreFacts_right,
+.MoreMyths_right {
+	flex-basis: 55%;
 }
 
 .MoreFacts_right {
-    font-size: 16px;
+	font-size: 16px;
+}
+
+.MoreFacts h1 {
+	color: #006174;
+	font-size: 20px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
 }

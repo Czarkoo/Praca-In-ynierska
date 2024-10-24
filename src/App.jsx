@@ -2,13 +2,13 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import ClientsSlider from './Components/Client/ClientsSlider';
 import Facts_Myths from './Components/Facts_Myths/Facts_Myths';
+import MoreFacts_Myths from './Components/MoreFacts_Myths/MoreFacts_Myths';
 import Navbar from './Components/Navbar/Navbar';
 import Programs from './Components/Programs/Programs';
 import MorePrograms from './Components/MorePrograms/MorePrograms';
 import Suplements_and_nutrition from './Components/Suplements_and_nutrition/Suplements_and_nutrition';
 import Title from './Components/Title/Title';
 import Websitebgc from './Components/Websitebgc/Websitebgc';
-
 const App = () => {
 	return (
 		<Router>
@@ -20,6 +20,7 @@ const App = () => {
 						<Route path='/' element={<Home />} />
 						{/* <Route path='programs' element={<Programs />} /> */}
 						<Route path='more-programs' element={<MorePrograms />} />
+						<Route path='MoreaboutFactsMyths' element={<MoreFacts_Myths />} />
 					</Routes>
 				</div>
 			</div>
