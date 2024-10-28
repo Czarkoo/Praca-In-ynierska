@@ -1,4 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 .MoreFacts {
+	margin: 110px auto;
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	position: relative;
+}
+
+.MoreFacts_left {
+	display: flex;
+	flex-direction: column;
+	width: 55%;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(rgba(7, 0, 62, 0.7), rgba(41, 62, 0, 0.262)),
+		url('../../assets/button_factmyth_three.jfif');
+	padding: 35px;
+	border-radius: 15px;
+	box-shadow: 0 0 15px #000000;
+	color: #d9d9d9;
+}
+
+.MoreFacts_right {
+	width: 40%;
+	font-size: 16px;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(rgba(7, 0, 62, 0.7), rgba(41, 62, 0, 0.262)),
+		url('../../assets/button_factmyth_three.jfif');
+	padding: 35px;
+	border-radius: 15px;
+	box-shadow: 0 0 15px #000000;
+	color: #d9d9d9;
+}
+/*  STYLIZACJA MOREMYTHS */
+.MoreMyths {
 	margin: 110px auto;
 	display: flex;
 	width: 90%;
@@ -6,39 +44,94 @@
 	position: relative;
 }
 
-.MoreFacts_top,
-.MoreMyths_top {
-	display: flex;
-	flex-basis: 100%;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-	position: relative; /* Zmieniono z absolute na relative */
-}
-
-.MoreFacts_left,
 .MoreMyths_left {
 	display: flex;
 	flex-direction: column;
-	flex-basis: 40%;
-	position: relative;
+	width: 40%;
 	text-align: center;
 	justify-content: center;
 	align-items: center;
+	background: linear-gradient(rgba(7, 0, 62, 0.7), rgba(41, 62, 0, 0.262)),
+		url('../../assets/button_factmyth.jfif');
+	padding: 35px;
+	border-radius: 15px;
+	box-shadow: 0 0 15px #000000;
+	color: #d9d9d9;
 }
 
-.MoreFacts_right,
 .MoreMyths_right {
-	flex-basis: 55%;
+	width: 55%;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(rgba(7, 0, 62, 0.7), rgba(41, 62, 0, 0.262)),
+		url('../../assets/button_factmyth.jfif');
+	padding: 35px;
+	border-radius: 15px;
+	box-shadow: 0 0 15px #000000;
+	color: #d9d9d9;
 }
 
-.MoreFacts_right {
-	font-size: 16px;
+.MoreMyths_right img {
+	width: 25%;
+	margin-bottom: 20px;
+	padding: 25px;
 }
 
-.MoreFacts h1 {
+.MoreMyths_right h2 {
+	margin-bottom: 12px;
+	text-align: left;
+	font-size: 20px;
+	padding: 10px;
+}
+
+.MoreMyths_right,
+.MoreMyths_left p {
+	text-align: justify;
+	font-size: 18px;
+}
+
+/* STYLIZACJA SEKCJI */
+.section-morefacts_myths h1 {
+	color: red;
+}
+
+/* STYLIZACJA NAGŁÓWKA */
+h1.title {
 	color: #006174;
 	font-size: 20px;
 	margin-bottom: 20px;
 	text-transform: uppercase;
+	text-align: center;
+}
+
+/* STYLIZACJA BUTTON */
+.button-factsmyths {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px 20px;
+}
+
+.button-factsmyths button {
+	background: linear-gradient(rgba(0, 29, 62, 0.7), rgba(2, 98, 68, 0.735)),
+		url('../../assets/button_factmyth.jfif');
+
+		box-shadow: 0 0 15px #000000;
+		font-size: 20px;
+		border: 0;
+		border-radius: 25px;
+		margin: 50px 25px 35px;
+		padding: 20px;
+		display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 33%;
+	cursor: pointer;
+	transition: 0.5s;
+	color: aliceblue;
+}
+
+.button-factsmyths button:hover {
+	background: url('../../assets/button_factmyth_two.jfif');
 }

@@ -12,9 +12,6 @@ const DescriptionMoreFacts = ({
         <div className='MoreaboutFactsMyths'>
             {title === 'Fakt' && (
                 <div className="MoreFacts">
-                    <div className="MoreFacts_top">
-                        <h1 className="title">Fakt: {subTitle}</h1>
-                    </div>
                     <div className="MoreFacts_left">
                         <img src={IconUrl} alt="" />
                         <h2 className="subTitle">{subTitle}</h2>
@@ -25,12 +22,8 @@ const DescriptionMoreFacts = ({
                     </div>
                 </div>
             )}
-
             {title === 'Mit' && (
                 <div className="MoreMyths">
-                    <div className="MoreMyths_top">
-                        <h1 className="title">Mit: {subTitle}</h1>
-                    </div>
                     <div className="MoreMyths_left">
                         <p>{description2}</p>
                     </div>
