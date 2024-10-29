@@ -86,7 +86,7 @@
 .MoreMyths_right,
 .MoreMyths_left p {
 	text-align: justify;
-	font-size: 16px;
+	font-size: 14px;
 }
 
 /* STYLIZACJA PRZYPISÓW */
@@ -146,5 +146,32 @@ h1.title {
 	background: url('../../assets/button_factmyth_two.jfif');
 }
 
+@media (max-width: 850px){
+	.MoreMyths_left p {
+		font-size: 9px;
+	}
+	.MoreMyths_right p {
+		font-size: 9px;
+	}
+	.MoreMyths_right h2{
+		font-size: 13px;
+	}
+	.przypisy{
+		font-size: 5px;
+	}
+}
 
-
+@media (min-width: 851px) and (max-width: 1200px) {
+	.MoreMyths_left p {
+		font-size: 12px;
+	}
+	.MoreMyths_right p {
+		font-size: 12px;
+	}
+	.MoreMyths_right h2 {
+		font-size: 17px;
+	}
+	.przypisy {
+		font-size: 9px;
+	}
+}
