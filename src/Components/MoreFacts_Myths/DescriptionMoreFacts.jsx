@@ -9,31 +9,7 @@ const DescriptionMoreFacts = ({
 	IconUrl,
 }) => {
 	return (
-        <div className='MoreaboutFactsMyths'>
-            {title === 'Fakt' && (
-                <div className="MoreFacts">
-                    <div className="MoreFacts_left">
-                        <img src={IconUrl} alt="" />
-                        <h2 className="subTitle">{subTitle}</h2>
-                        <p>{description2}</p>
-                    </div>
-                    <div className="MoreFacts_right">
-                        <p>{description3}</p>
-                    </div>
-                </div>
-            )}
-            {title === 'Mit' && (
-                <div className="MoreMyths">
-                    <div className="MoreMyths_left">
-                        <p>{description2}</p>
-                    </div>
-                    <div className="MoreMyths_right">
-                        <img src={IconUrl} alt="" />
-                        <h2 className="subTitle">{subTitle}</h2>
-                        <p>{description3}</p>
-                    </div>
-                </div>
-            )}
+        <div className='MoreaboutFactsMyths'>         
         </div>
     );
 };

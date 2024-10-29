@@ -14,6 +14,7 @@ import podciaganie_nachwytem from '../../assets/podciaganie_nachwytem.webp';
 import wioslowanie_sztanga from '../../assets/wioslowanie_sztanga.webp';
 import wykroki from '../../assets/wykroki.jfif';
 import smith from '../../assets/smith.jfif';
+import cyclist_squad from '../../assets/cyclist_squad.webp'
 
 const ExerciseList = ({ click }) => {
 	const exercises = [
@@ -187,7 +188,7 @@ const ExerciseList = ({ click }) => {
 			Title: 'cyclist squad',
 			Description:
 				'Cyclist squat to ćwiczenie, które skupia się na wzmocnieniu dolnych partii ciała, szczególnie ud i pośladków, przy jednoczesnym zwiększeniu mobilności stawów. Aby je wykonać, stajesz na lekko podwyższonym podłożu, takim jak mała platforma lub talerz, umieszczając stopy w sposób, który pozwoli na głębokie zejście w dół. Trzymając obciążenie, na przykład hantle lub kettlebell, w rękach na wysokości klatki piersiowej, zaczynasz ruch od ugięcia kolan i wypychania bioder do tyłu.',
-			ImageUrl: facts_myths_image1,
+			ImageUrl: cyclist_squad,
 			Description2:
 				'W miarę jak schodzisz w dół, ważne jest, aby zachować prostą postawę i nie zaokrąglać pleców. Ruch powinien być kontrolowany i płynny, a kolana powinny pozostawać w linii z palcami stóp, aby uniknąć kontuzji. Im niżej schodzisz, tym bardziej angażowane są mięśnie czworogłowe uda, które odpowiadają za prostowanie kolan. Mięśnie pośladkowe, w szczególności mięsień wielki pośladkowy, również intensywnie pracują, pomagając w stabilizacji oraz w powrocie do pozycji wyjściowej.',
 			Description3:

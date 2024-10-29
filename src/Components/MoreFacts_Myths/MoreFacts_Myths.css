@@ -48,9 +48,6 @@
 	display: flex;
 	flex-direction: column;
 	width: 40%;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
 	background: linear-gradient(rgba(7, 0, 62, 0.7), rgba(41, 62, 0, 0.262)),
 		url('../../assets/button_factmyth.jfif');
 	padding: 35px;
@@ -60,13 +57,15 @@
 }
 
 .MoreMyths_right {
+	display: flex;
 	width: 55%;
+	flex-direction: column;
 	text-align: center;
 	justify-content: center;
 	align-items: center;
 	background: linear-gradient(rgba(7, 0, 62, 0.7), rgba(41, 62, 0, 0.262)),
 		url('../../assets/button_factmyth.jfif');
-	padding: 35px;
+	padding: 35px 35px 10px;
 	border-radius: 15px;
 	box-shadow: 0 0 15px #000000;
 	color: #d9d9d9;
@@ -74,13 +73,12 @@
 
 .MoreMyths_right img {
 	width: 25%;
-	margin-bottom: 20px;
-	padding: 25px;
+	padding: 15px;
 }
 
 .MoreMyths_right h2 {
 	margin-bottom: 12px;
-	text-align: left;
+	text-align: start;
 	font-size: 20px;
 	padding: 10px;
 }
@@ -88,12 +86,24 @@
 .MoreMyths_right,
 .MoreMyths_left p {
 	text-align: justify;
-	font-size: 18px;
+	font-size: 16px;
 }
 
+/* STYLIZACJA PRZYPISÓW */
+.przypisy {
+	list-style: none;
+	padding: 0;
+	margin-top: 40px;
+	font-size: 12px;
+}
+
+.przypisy li {
+	margin-bottom: 8px;
+}
 /* STYLIZACJA SEKCJI */
 .section-morefacts_myths h1 {
-	color: red;
+	color: black;
+	margin: 50px 0 0 50px; 
 }
 
 /* STYLIZACJA NAGŁÓWKA */
@@ -117,13 +127,13 @@ h1.title {
 	background: linear-gradient(rgba(0, 29, 62, 0.7), rgba(2, 98, 68, 0.735)),
 		url('../../assets/button_factmyth.jfif');
 
-		box-shadow: 0 0 15px #000000;
-		font-size: 20px;
-		border: 0;
-		border-radius: 25px;
-		margin: 50px 25px 35px;
-		padding: 20px;
-		display: flex;
+	box-shadow: 0 0 15px #000000;
+	font-size: 20px;
+	border: 0;
+	border-radius: 25px;
+	margin: 50px 25px 35px;
+	padding: 20px;
+	display: flex;
 	justify-content: center;
 	align-items: center;
 	width: 33%;
@@ -135,3 +145,6 @@ h1.title {
 .button-factsmyths button:hover {
 	background: url('../../assets/button_factmyth_two.jfif');
 }
+
+
+

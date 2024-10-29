@@ -90,6 +90,7 @@
 	text-transform: uppercase;
 	transition: 0.3s;
 	box-shadow: 0 0 20px #012840;
+	width: 15%;
 }
 
 .button-moreprograms button:hover {
