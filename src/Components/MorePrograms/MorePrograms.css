@@ -96,3 +96,68 @@
 .button-moreprograms button:hover {
 	background: #012840;
 }
+@media (min-width: 375px) and (max-width: 767px){
+	.more-programs{
+		margin: 40px auto;
+	}
+	.more-programs-right p{
+		font-size: 6px;
+	}
+	.more-programs-right h2{
+		font-size: 14px;
+	}
+	.more-programs ul li {
+		font-size: 8px;
+		color: #00a1c1;
+		margin: 8px 6px;
+	}
+	.exercise1 {
+		width: 100%;
+	}
+	.exercise-section h1 {
+		font-size: 25px;
+		margin-bottom: 30px;
+	}
+	.more-programs h3 {
+		font-size: 12px;
+		text-align: left;
+	}
+
+	.button-moreprograms button {
+		width: 30%; /* Zwiększ szerokość przycisków */
+		padding: 10px 20px; /* Zmniejsz padding, aby tekst lepiej się mieścił */
+		font-size: 12px; /* Dostosuj rozmiar tekstu */
+		margin: 18px 10px; /* Zmniejsz marginesy wokół przycisków */
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+	.more-programs-right p{
+		font-size: 12px;
+	}
+	.more-programs-right h2{
+		font-size: 18px;
+	}
+	.more-programs ul li {
+		font-size: 12px;
+		color: #00a1c1;
+		margin: 12px 10px;
+	}
+	.exercise1 {
+		width: 100%;
+	}
+	.exercise-section h1 {
+		font-size: 30px;
+	}
+	.more-programs h3 {
+		font-size: 15px;
+		text-align: left;
+	}
+
+	.button-moreprograms button {
+		width: 30%; /* Zwiększ szerokość przycisków */
+		padding: 10px 20px; /* Zmniejsz padding, aby tekst lepiej się mieścił */
+		font-size: 18px; /* Dostosuj rozmiar tekstu */
+		margin: 25px 15px; /* Zmniejsz marginesy wokół przycisków */
+	}
+}
