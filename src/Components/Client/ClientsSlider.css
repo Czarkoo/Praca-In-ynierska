@@ -18,7 +18,7 @@
 
 .slider-content {
 	display: flex;
-	width: 200%;
+	width: 100%;
 	justify-content: center;
 }
 
@@ -26,7 +26,7 @@
 	border-radius: 10px;
 	min-width: 50%;
 	width: 500px; /* Set a fixed width */
-	height: 250px; /* Set a fixed height */
+	height: 300px; /* Set a fixed height */
 	line-height: 1.2;
 	display: flex;
 	justify-content: center;

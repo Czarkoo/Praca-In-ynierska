@@ -18,8 +18,15 @@
 			"firstName": "John",
 			"lastName": "Doe",
 			"region": "Śląsk, Katowice",
-			"description": "Edusity has provided me with excellent educational resources and a great learning environment.",
+			"description": "Ta strona to idealne miejsce dla osób, które chcą poprawić swoją kondycję i dowiedzieć się więcej o suplementacji. Sekcja suplementów zawiera dobrze opisane produkty, które wspierają rozwój masy mięśniowej i regenerację organizmu. Dzięki sekcji „Fakty i Mity” można uniknąć częstych błędów i mitów, które wciąż krążą w świecie fitnessu. Dostępne są też instrukcje ćwiczeń, które pomagają w planowaniu treningu na różnych poziomach zaawansowania. Świetne źródło wiedzy, z dużą ilością przydatnych informacji.",
 			"image": "john_person3.png"
+		},
+		{
+			"firstName": "Frank",
+			"lastName": "Bellgs",
+			"region": "Śląsk, Dąbrówka Mała",
+			"description": "Strona dostarcza wyczerpujących informacji na temat suplementów, faktycznie wspierających sportowców i osoby aktywne. Przejrzysta sekcja „Fakty i Mity” pomaga użytkownikom odróżnić rzeczywiste korzyści z treningu od powszechnych błędnych przekonań. Znajdziesz tu również instrukcje dla ćwiczeń, które umożliwiają skuteczne planowanie treningów. Wszystkie artykuły są napisane przystępnie, a treść jest zrozumiała dla każdego. Zdecydowanie polecam dla tych, którzy chcą świadomie dbać o swoje zdrowie.",
+			"image": "emily_person2.png"
 		}
 	]
 }

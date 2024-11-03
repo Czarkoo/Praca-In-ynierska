@@ -39,8 +39,8 @@ const ClientsSlider = () => {
 				<div
 					className='slider-content'
 					style={{
-						transform: `translateX(-${currentSlide * 50}%)`,
-					}}
+						transform: `translateX(-${currentSlide * (100 / totalSlides)}%)`,
+					  }}
 				>
 					{clientsData.clients.map((client, index) => (
 						<div key={index} className='slide'>
