@@ -2,13 +2,14 @@ import React from 'react';
 import './Facts_Myths.css';
 import {Link} from 'react-router-dom';
 import facts_myths_image1 from '../../assets/facts_myths_image1.png';
+import tematical_factmyth from '../../assets/tematical_factmyth.webp'
 import read from '../../assets/read.svg';
 import arrow_right from '../../assets/arrow_right.svg';
 const Facts_Myths = () => {
 	return (
 		<div className='facts_myths'>
 			<div className='facts-left'>
-				<img src={facts_myths_image1} alt='' className='facts-img' />
+				<img src={tematical_factmyth} alt='' className='facts-img' />
 				{/* <img src={read} alt='' className='read-img' /> */}
 			</div>
 			<div className='myths-right'>

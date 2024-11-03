@@ -13,17 +13,24 @@
 	display: flex;
 	transition: transform 0.5s ease-in-out;
 	overflow: hidden;
+	justify-content: center;
 }
 
 .slider-content {
 	display: flex;
 	width: 200%;
+	justify-content: center;
 }
 
 .slide {
 	border-radius: 10px;
 	min-width: 50%;
+	width: 500px; /* Set a fixed width */
+	height: 250px; /* Set a fixed height */
 	line-height: 1.2;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 .client-info {
 	box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
@@ -32,7 +39,10 @@
 	padding: 20px;
 	background-color: rgb(255, 255, 255);
 	border-radius: 10px;
-	margin: 10px;
+	height: 100%; /* Ensures client-info takes up full height of .slide */
+	width: 90%; /* Optional: sets a width within the .slide */
+	overflow: hidden;
+	margin: 0 auto;
 }
 
 .client-info img {
@@ -53,6 +63,7 @@
 
 .client-info p {
 	font-size: 12px;
+	overflow: hidden;
 }
 
 .slider-btn {
