@@ -5,7 +5,7 @@ const Footer_section_left = () => {
   return (
     <div>
       <img src={logo} alt="logo" />
-      <p>copyright tu bedzie</p>
+      <p className='footer-copyright'>@ 2024 Kacper Czajer. All right reserver</p>
     </div>
   )
 }

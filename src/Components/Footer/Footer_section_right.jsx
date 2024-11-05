@@ -9,20 +9,44 @@ const Footer_section_right = () => {
 		<div>
 			<ul className='lista'>
 				<li className='Instagram'>
-					<img src={instagram} alt='Instagram' />
-                    <p>Instagram</p>
+					<a
+						href='https://www.instagram.com'
+						target='_blank'
+						rel='noopener noreferrer'
+					>
+						<img src={instagram} alt='Instagram' />
+					</a>
+					<p className='social-text'>Instagram</p>
 				</li>
 				<li className='Facebook'>
-					<img src={facebook} alt='Facebook' />
-                    <p>Facebook</p>
+					<a
+						href='https://www.facebook.com'
+						target='_blank'
+						rel='noopener noreferrer'
+					>
+						<img src={facebook} alt='Facebook' />
+					</a>
+					<p className='social-text'>Facebook</p>
 				</li>
 				<li className='LinkedIn'>
-					<img src={linkedin} alt='LinkedIn' />
-                    <p>LinkedIn</p>
+					<a
+						href='https://www.linkedin.com'
+						target='_blank'
+						rel='noopener noreferrer'
+					>
+						<img src={linkedin} alt='LinkedIn' />
+					</a>
+					<p className='social-text'>LinkedIn</p>
 				</li>
 				<li className='Gmail'>
-					<img src={gmail} alt='Gmail' />
-                    <p>Gmail</p>
+					<a
+						href='https://www.gmail.com'
+						target='_blank'
+						rel='noopener noreferrer'
+					>
+						<img src={gmail} alt='Gmail' />
+					</a>
+					<p className='social-text'>Gmail</p>
 				</li>
 			</ul>
 		</div>
