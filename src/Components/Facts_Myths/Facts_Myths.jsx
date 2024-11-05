@@ -9,7 +9,6 @@ const Facts_Myths = () => {
 		<div className='facts_myths'>
 			<div className='facts-left'>
 				<img src={tematical_factmyth} alt='' className='facts-img' />
-				{/* <img src={read} alt='' className='read-img' /> */}
 			</div>
 			<div className='myths-right'>
 				<Description_Fact_Myths></Description_Fact_Myths>

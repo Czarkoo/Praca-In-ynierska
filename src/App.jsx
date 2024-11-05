@@ -9,6 +9,8 @@ import MorePrograms from './Components/MorePrograms/MorePrograms';
 import Suplements_and_nutrition from './Components/Suplements_and_nutrition/Suplements_and_nutrition';
 import Title from './Components/Title/Title';
 import Websitebgc from './Components/Websitebgc/Websitebgc';
+import Footer from './Components/Footer/Footer';
+
 const App = () => {
 	return (
 		<Router>
@@ -18,11 +20,11 @@ const App = () => {
 				<div className='container'>
 					<Routes>
 						<Route path='/' element={<Home />} />
-						{/* <Route path='programs' element={<Programs />} /> */}
 						<Route path='more-programs' element={<MorePrograms />} />
 						<Route path='MoreaboutFactsMyths' element={<MoreFacts_Myths />} />
 					</Routes>
 				</div>
+				<Footer />
 			</div>
 		</Router>
 	);
