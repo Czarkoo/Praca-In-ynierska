@@ -1,10 +1,9 @@
 import React from 'react';
 import './Facts_Myths.css';
-import {Link} from 'react-router-dom';
-import facts_myths_image1 from '../../assets/facts_myths_image1.png';
-import tematical_factmyth from '../../assets/tematical_factmyth.webp'
-import read from '../../assets/read.svg';
+import { Link } from 'react-router-dom';
+import tematical_factmyth from '../../assets/tematical_factmyth.webp';
 import arrow_right from '../../assets/arrow_right.svg';
+import Description_Fact_Myths from './Description_Fact_Myths';
 const Facts_Myths = () => {
 	return (
 		<div className='facts_myths'>
@@ -13,23 +12,7 @@ const Facts_Myths = () => {
 				{/* <img src={read} alt='' className='read-img' /> */}
 			</div>
 			<div className='myths-right'>
-				<h3>Fakty Oraz Mity</h3>
-				<h2>Na co każdy poczatkujący powinien zwrócić uwagę</h2>
-				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel beatae
-					officia eum vero minima maiores velit alias? Itaque, non quas natus
-					modi cupiditate ducimus facere necessitatibus saepe deserunt quis
-					excepturi?
-				</p>
-				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, et.
-				</p>
-				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nihil
-					fugiat eius laboriosam quo quasi sit soluta. Maiores laborum, ea dicta
-					corporis culpa numquam, quos non dolorem, dignissimos optio itaque.
-				</p>
-				
+				<Description_Fact_Myths></Description_Fact_Myths>
 				<Link to='MoreaboutFactsMyths'>
 					<button className='btn dark-btn'>
 						Read More

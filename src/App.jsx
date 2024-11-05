@@ -38,13 +38,13 @@ const Home = () => {
 			<div id='facts_myths'>
 				<Facts_Myths />
 			</div>
-			<Title subTitle='Supplements' Title='Products Worth Attention' />
-			<div id='suplements'>
-				<Suplements_and_nutrition />
-			</div>
 			<Title subTitle='Opinie' Title='Informacje odnośnie strony' />
 			<div id='slider-container'>
 				<ClientsSlider />
+			</div>
+			<Title subTitle='Supplements' Title='Products Worth Attention' />
+			<div id='suplements'>
+				<Suplements_and_nutrition />
 			</div>
 		</>
 	);

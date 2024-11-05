@@ -40,7 +40,7 @@ const ClientsSlider = () => {
 					className='slider-content'
 					style={{
 						transform: `translateX(-${currentSlide * (100 / totalSlides)}%)`,
-					  }}
+					}}
 				>
 					{clientsData.clients.map((client, index) => (
 						<div key={index} className='slide'>

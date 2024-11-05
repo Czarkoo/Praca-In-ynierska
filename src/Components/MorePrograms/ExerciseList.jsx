@@ -14,7 +14,10 @@ import podciaganie_nachwytem from '../../assets/podciaganie_nachwytem.webp';
 import wioslowanie_sztanga from '../../assets/wioslowanie_sztanga.webp';
 import wykroki from '../../assets/wykroki.jfif';
 import smith from '../../assets/smith.jfif';
-import cyclist_squad from '../../assets/cyclist_squad.webp'
+import cyclist_squad from '../../assets/cyclist_squad.webp';
+import warkocz from '../../assets/warkocz.webp';
+import prostowanie_podudzi from '../../assets/prostowanie_podudzi.webp';
+import odwrocony_modlitewnik from '../../assets/odwrocony_modlitewnik.webp';
 
 const ExerciseList = ({ click }) => {
 	const exercises = [
@@ -89,7 +92,7 @@ const ExerciseList = ({ click }) => {
 			Title: 'Odwrócony modlitewnik',
 			Description:
 				'Odwrócony modlitewnik, znany również jako „triceps extension na modlitewniku”, to skuteczne ćwiczenie izolujące mięśnie tricepsa, które pozwala na skoncentrowaną pracę nad tą grupą mięśniową. Wykonywane na specjalnym sprzęcie zwanym modlitewnikiem, ćwiczenie to umożliwia zachowanie stabilnej pozycji, co sprzyja lepszej kontroli ruchu oraz izolacji mięśni. Dzięki unikalnej konstrukcji modlitewnika, jest to idealne rozwiązanie dla osób, które pragną skoncentrować się na rozwoju tricepsów.',
-			ImageUrl: facts_myths_image1,
+			ImageUrl: odwrocony_modlitewnik,
 			Description2:
 				'Wykonując odwrócony modlitewnik, angażowane są także inne mięśnie stabilizujące, takie jak mięśnie naramienne oraz mięśnie klatki piersiowej, które pomagają utrzymać stabilność ramion podczas ruchu. Mięśnie przedramion również są aktywne, stabilizując chwyt i kontrolując ciężar.',
 			Description3:
@@ -133,7 +136,7 @@ const ExerciseList = ({ click }) => {
 			Title: '"Narciarz"',
 			Description:
 				'W tym ćwiczeniu wykorzystuje się wyciąg górny z uchwytem lub sznurem. Rozpoczynamy w pozycji stojącej, z nogami na szerokość bioder, lekko ugiętymi kolanami. Uchwyt powinien być ustawiony na wysokości klatki piersiowej lub nieco niżej, w zależności od preferencji. Gdy zaczynamy ruch, odchylamy lekko tułów do przodu, zachowując prostą linię pleców.',
-			ImageUrl: facts_myths_image1,
+			ImageUrl: warkocz,
 			Description2:
 				'Ruch polega na ciągnięciu uchwytu lub sznura w dół i w tył, jakbyśmy „odpuchiwali” kijkami, włączając do pracy mięśnie górnej części pleców, szczególnie mięśnie najszersze, trapezowe oraz równoległoboczne. W trakcie ciągnięcia ważne jest, aby skupiać się na pracy pleców, a nie na ramionach, co pozwoli na lepsze zaangażowanie odpowiednich mięśni.',
 			Description3:
@@ -166,7 +169,7 @@ const ExerciseList = ({ click }) => {
 			Title: 'Wyprost podudzi',
 			Description:
 				'Wyprost podudzi to popularne ćwiczenie, które koncentruje się na wzmocnieniu mięśni ud, szczególnie czworogłowego uda. Aby wykonać to ćwiczenie, siadasz na maszynie do wyprostu nóg, umieszczając nogi w pozycji, w której kolana są zgięte pod kątem prostym, a stopy opierają się na platformie. Po dostosowaniu odpowiedniego ciężaru zaczynasz ruch od prostowania nóg, wypychając platformę w górę.',
-			ImageUrl: facts_myths_image1,
+			ImageUrl: prostowanie_podudzi,
 			Description2:
 				'Podczas wykonywania wyprostu, główną rolę odgrywają mięśnie czworogłowe uda, które składają się z czterech części: mięśnia prostego uda, mięśni obszernych bocznych, pośrednich i przyśrodkowych. Ich aktywność jest kluczowa dla prostowania kolan, a im większy ciężar, tym intensywniejsza praca tych mięśni.',
 			Description3:

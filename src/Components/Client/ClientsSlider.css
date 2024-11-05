@@ -25,8 +25,8 @@
 .slide {
 	border-radius: 10px;
 	min-width: 50%;
-	width: 500px; /* Set a fixed width */
-	height: 300px; /* Set a fixed height */
+	width: 500px;
+	height: 300px;
 	line-height: 1.2;
 	display: flex;
 	justify-content: center;
@@ -39,8 +39,8 @@
 	padding: 20px;
 	background-color: rgb(255, 255, 255);
 	border-radius: 10px;
-	height: 100%; /* Ensures client-info takes up full height of .slide */
-	width: 90%; /* Optional: sets a width within the .slide */
+	height: 100%;
+	width: 90%;
 	overflow: hidden;
 	margin: 0 auto;
 }
