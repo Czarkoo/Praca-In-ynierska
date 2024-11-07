@@ -137,7 +137,7 @@ const Navbar = () => {
 					<ScrollLink
 						to='slider-container'
 						smooth={true}
-						offset={-150}
+						offset={-250}
 						duration={500}
 						onClick={() => handleNavClick('slider-container')}
 					
