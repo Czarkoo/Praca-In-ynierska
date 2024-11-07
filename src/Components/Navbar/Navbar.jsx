@@ -65,7 +65,7 @@ const Navbar = () => {
 							window.pageYOffset +
 							yOffset;
 						window.scrollTo({ top: y, behavior: 'smooth' });
-					}
+					}				
 				}
 			}, 400);
 		} else {

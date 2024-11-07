@@ -5,28 +5,38 @@
 			"lastName": "Jackson",
 			"region": "Śląsk, Gliwice",
 			"description": "Strona to prawdziwe kompendium wiedzy dla osób zainteresowanych zdrowym stylem życia i aktywnością fizyczną. Znajdziesz tu rzetelne informacje na temat suplementów, które pomogą Ci osiągnąć zamierzone cele treningowe. Sekcja „Fakty i Mity” jest szczególnie pomocna, obalając popularne nieprawdziwe teorie dotyczące fitnessu i zdrowia. Dodatkowo, dostępne są szczegółowe opisy różnych ćwiczeń, które można łatwo wdrożyć w codzienne treningi. To świetne źródło informacji zarówno dla początkujących, jak i doświadczonych entuzjastów fitnessu.",
-			"image": "william_person1.png"
+			"image": "william_person1.png",
+			"data": "2018-11-05",
+			"rate": 4.1
+
+			
 		},
 		{
 			"firstName": "Emily",
 			"lastName": "Williams",
 			"region": "Śląsk, Sosnowiec",
 			"description": "Strona zaskakuje bogatą ofertą treści skierowanych do fanów zdrowia i fitnessu. W sekcji suplementów można znaleźć porady, które produkty naprawdę wspomagają treningi i regenerację. Dzięki sekcji „Fakty i Mity” szybko zweryfikujesz popularne przekonania dotyczące ćwiczeń i zdrowia. Opisy poszczególnych ćwiczeń są klarowne i profesjonalnie przygotowane, co ułatwia dobór odpowiednich technik. Całość jest przyjazna dla użytkownika, co czyni ją jedną z najlepszych platform dla osób poszukujących sprawdzonych informacji o fitnessie.",
-			"image": "emily_person2.png"
+			"image": "emily_person2.png",
+			"data": "2012-09-24",
+			"rate": 3.9
 		},
 		{
 			"firstName": "John",
 			"lastName": "Doe",
 			"region": "Śląsk, Katowice",
 			"description": "Ta strona to idealne miejsce dla osób, które chcą poprawić swoją kondycję i dowiedzieć się więcej o suplementacji. Sekcja suplementów zawiera dobrze opisane produkty, które wspierają rozwój masy mięśniowej i regenerację organizmu. Dzięki sekcji „Fakty i Mity” można uniknąć częstych błędów i mitów, które wciąż krążą w świecie fitnessu. Dostępne są też instrukcje ćwiczeń, które pomagają w planowaniu treningu na różnych poziomach zaawansowania. Świetne źródło wiedzy, z dużą ilością przydatnych informacji.",
-			"image": "john_person3.png"
+			"image": "john_person3.png",
+			"data": "2015-06-12",
+			"rate": 4.7
 		},
 		{
 			"firstName": "Frank",
 			"lastName": "Bellgs",
 			"region": "Śląsk, Dąbrówka Mała",
 			"description": "Strona dostarcza wyczerpujących informacji na temat suplementów, faktycznie wspierających sportowców i osoby aktywne. Przejrzysta sekcja „Fakty i Mity” pomaga użytkownikom odróżnić rzeczywiste korzyści z treningu od powszechnych błędnych przekonań. Znajdziesz tu również instrukcje dla ćwiczeń, które umożliwiają skuteczne planowanie treningów. Wszystkie artykuły są napisane przystępnie, a treść jest zrozumiała dla każdego. Zdecydowanie polecam dla tych, którzy chcą świadomie dbać o swoje zdrowie.",
-			"image": "emily_person2.png"
+			"image": "emily_person2.png",
+			"data": "2020-03-18",
+			"rate": 4.3
 		}
 	]
 }

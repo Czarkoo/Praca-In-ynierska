@@ -1,11 +1,11 @@
-/* ClientsSlider.css */
 .slider-container {
 	position: relative;
-	margin: 0 80px;
+	margin: 0 auto;
 	overflow: hidden;
 	display: flex;
 	align-items: center;
-	padding: 0 60px;
+	padding: 0;
+	width: 90%;
 }
 
 .slider-wrapper {
@@ -13,57 +13,82 @@
 	display: flex;
 	transition: transform 0.5s ease-in-out;
 	overflow: hidden;
-	justify-content: center;
+	justify-content: flex-start;
 }
 
 .slider-content {
 	display: flex;
-	width: 100%;
-	justify-content: center;
+	transition: transform 0.5s ease;
 }
 
 .slide {
 	border-radius: 10px;
-	min-width: 50%;
-	width: 500px;
-	height: 300px;
-	line-height: 1.2;
+	min-width: calc(100% / 3); /* Wyświetlaj 3 slajdy jednocześnie domyślnie */
+	box-sizing: border-box;
+	padding: 20px;
+	height: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
+
 .client-info {
 	box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
 	display: flex;
 	flex-direction: column;
-	padding: 20px;
+	padding: 20px 20px 40px;
 	background-color: rgb(255, 255, 255);
 	border-radius: 10px;
 	height: 100%;
 	width: 90%;
 	overflow: hidden;
 	margin: 0 auto;
+	transition: transform 0.3s ease;
+	position: relative;
 }
 
 .client-info img {
-	width: 65px;
-	height: 65px;
+	width: 80px;
+	height: 80px;
 	border-radius: 50%;
 	border: 2px solid #ff9966;
-	margin-right: 15px;
+	margin-bottom: 15px;
 }
+
 .client-info h3 {
-	font-size: 18px;
+	font-size: 20px;
+	margin: 10px 0;
 }
 
 .client-info span {
-	font-size: 15px;
+	font-size: 16px;
 	margin-bottom: 10px;
 }
 
 .client-info p {
+	font-size: 14px;
+	line-height: 1.2;
+}
+
+.data {
+	position: absolute;
+	right: 10px;
+	bottom: 15px;
 	font-size: 12px;
-	overflow: hidden;
+	color: #656464;
+}
+/* STYLIZACJA OCENY */
+
+.rating {
+	position: absolute;
+	align-items: center;
+	right: 10px;
+	top: 15px;
+}
+.rating .rating-value {
+	font-size: 16px;
+	margin-left: 8px;
+	color: black;
 }
 
 .slider-btn {
@@ -80,23 +105,18 @@
 	cursor: pointer;
 	color: white;
 	font-size: 20px;
-	z-index: 100;
+	z-index: 1000;
 	top: 50%;
 	transform: translateY(-50%);
-	/* right: 0; */
 	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.slider-btn:hover {
+.slider-btn {
 	background-color: rgba(193, 114, 18, 0.486);
 }
 
-.slider-btn.prev {
-	left: 2px;
-}
-
 .slider-btn.next {
-	right: 2px;
+	right: 0;
 }
 
 .slider-btn img {
@@ -105,19 +125,60 @@
 }
 
 /* Media Query */
+
+@media (max-width: 1200px) {
+	.slide {
+		min-width: calc(100% / 2);
+	}
+	.client-info {
+		width: 80%;
+	}
+	.slider-wrapper {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		transition: transform 0.5s ease-in-out;
+		overflow: visible;
+	}
+	.slider-btn.next,
+	.slider-btn.prev {
+		padding: 0;
+		width: 40px;
+		height: 40px;
+	}
+	.client-info p {
+		font-size: 14px;
+		line-height: 1.3;
+	}
+}
+
 @media (max-width: 800px) {
 	.slider-container {
 		margin: 0 auto;
-		padding: 0 60px;
+		padding: 0;
+		align-items: center;
+		width: 100%;
+		position: relative;
+	}
+	.slider-wrapper {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		transition: transform 0.5s ease-in-out;
+		overflow: visible;
 	}
 	.slider-btn.next,
 	.slider-btn.prev {
 		padding: 10px;
-		width: 35px;
+		width: 40px;
+		height: 40px;
 	}
 	.client-info img {
-		width: 50px;
-		border: 3px solid #ff9966;
+		width: 65px;
+		height: 65px;
+	}
+	.slide {
+		min-width: 100%;
 	}
 }
 
@@ -127,13 +188,12 @@
 		margin-bottom: 10px;
 	}
 	.client-info h3 {
-		font-size: 15px;
+		font-size: 18px;
 	}
-
 	.client-info span {
-		font-size: 13px;
+		font-size: 14px;
 	}
 	.client-info p {
-		font-size: 10px;
+		font-size: 12px;
 	}
 }
