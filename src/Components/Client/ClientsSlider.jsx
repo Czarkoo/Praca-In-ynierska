@@ -56,10 +56,10 @@ const ClientsSlider = () => {
 		let sortedArray = [...clientsData.clients];
 		switch (sortBy) {
 			case 'newest':
-				sortedArray.sort((a, b) => new Date(b.date) - new Date(a.date));
+				sortedArray.sort((a, b) => new Date(b.data) - new Date(a.data));
 				break;
 			case 'oldest':
-				sortedArray.sort((a, b) => new Date(a.date) - new Date(b.date));
+				sortedArray.sort((a, b) => new Date(a.data) - new Date(b.data));
 				break;
 			case 'highest_rate':
 				sortedArray.sort((a, b) => b.rate - a.rate);
@@ -106,7 +106,7 @@ const ClientsSlider = () => {
 								<span>{client.region}</span>
 								<Rating value={client.rate} />
 								<p>{client.description}</p>
-								<p className='data'>{client.date}</p>
+								<p className='data'>{client.data}</p>
 							</div>
 						</div>
 					))}
