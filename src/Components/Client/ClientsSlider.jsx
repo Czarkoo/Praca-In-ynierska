@@ -4,12 +4,16 @@ import clientsData from '../../data/clients.json';
 import arrow_right from '../../assets/arrow_right.svg';
 import arrow_left from '../../assets/arrow_left.svg';
 import Rating from './Rating';
-import SortClientSlider from './SortClientSlider'; // Upewnij się, że importujesz poprawny plik
+import SortClientSlider from './SortClientSlider';
 
 const ClientsSlider = () => {
-	const [currentSlide, setCurrentSlide] = useState(0);
 	const [slidesToShow, setSlidesToShow] = useState(3);
 	const [sortedClients, setSortedClients] = useState([...clientsData.clients]);
+	const [currentSlide, setCurrentSlide] = useState(0);
+	const [visibleSlides, setVisibleSlides] = useState([...clientsData.clients]);
+	
+
+	const slides = [sortedClients[sortedClients.length - 1], ...sortedClients, sortedClients[0]];
 
 	// Update liczby slajdów na podstawie szerokości ekranu
 	useEffect(() => {
@@ -43,6 +47,14 @@ const ClientsSlider = () => {
 		const slideInterval = setInterval(nextSlide, 8000);
 		return () => clearInterval(slideInterval);
 	}, [sortedClients.length]);
+
+	useEffect(() => {
+		if (currentSlide === 0) {
+			setTimeout(() => setCurrentSlide(slides.length - 2), 0); // Jump to the last real slide
+		} else if (currentSlide === slides.length - 1) {
+			setTimeout(() => setCurrentSlide(1), 0); // Jump to the first real slide
+		}
+	}, [currentSlide, slides.length]);
 
 	const getImagePath = (imageName) => {
 		try {
@@ -86,10 +98,11 @@ const ClientsSlider = () => {
 					className='slider-content'
 					style={{
 						transform: `translateX(-${(currentSlide * 100) / slidesToShow}%)`,
-						width: `${(sortedClients.length / slidesToShow) * 100}%`,
+						width: `${(slides.length / slidesToShow) * 100}%`,
+						transition: currentSlide === 0 || currentSlide === slides.length - 1 ? 'none' : 'transform 0.5s ease-in-out',
 					}}
 				>
-					{sortedClients.map((client, index) => (
+					{slides.map((client, index) => (
 						<div
 							key={index}
 							className='slide'
