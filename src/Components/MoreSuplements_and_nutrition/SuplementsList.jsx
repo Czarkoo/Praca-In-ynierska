@@ -23,15 +23,14 @@ import cytrulina_jablczan from '../../assets/cytrulina_jablczan.webp';
 import cytrulina_L from '../../assets/cytrulina_L.webp';
 
 const SuplementsList = ({ click }) => {
-    const suplements =
-    [
-        {
+	const suplements = [
+		{
 			section: 'Białko',
 			Title: 'Białko',
 			Description:
 				'Odżywka białkowa wyróżnia się jedną z najwyższych wartości odżywczych w porównaniu do innych źródeł białka, dzięki bogatemu aminogramowi, w tym obecności aminokwasów rozgałęzionych (BCAA). Warto łączyć ją z innymi źródłami białka, aby uzyskać różnorodny profil aminokwasów w diecie. Dodatkowo, białko ma właściwości prozdrowotne – aminokwasy tworzą większe peptydy, takie jak immunoglobulina i laktoferyna, które wspierają funkcjonowanie układu odpornościowego.Na większości produktów widnieje napis „whey”. Whey, czyli serwatka, to produkt uboczny powstający przy produkcji sera. Serwatka jest poddawana ultrafiltracji, która oddziela białko od tłuszczu i laktozy, a następnie zostaje sproszkowana, tworząc koncentrat białka serwatkowego, znany jako WPC 80. Oznaczenie "80" wskazuje, że produkt zawiera około 80% białka na 100 g proszku.',
 			ImageUrl: gallery_protein,
-            imageURL1: gallery_wph,
+			imageURL1: gallery_wph,
 			imageURL2: gallery_wpi,
 			imageURL3: gallery_wpc,
 			Description2:
@@ -39,13 +38,13 @@ const SuplementsList = ({ click }) => {
 			Description3:
 				'Oprócz koncentratu, na rynku dostępne są również inne formy białka serwatkowego, takie jak izolat i hydrolizat. Charakteryzują się one niższą zawartością tłuszczu, co może być korzystne dla osób na restrykcyjnej diecie redukcyjnej. Jednak dodatkowe procesy, którym poddawana jest serwatka, mogą prowadzić do denaturacji aminokwasów, przez co tracą one część swoich właściwości zdrowotnych. Mniejsza ilość tłuszczu często wpływa również na gorszy smak i konsystencję. Jeśli po spożyciu koncentratu odczuwasz dyskomfort trawienny, warto rozważyć izolat, szczególnie jeśli masz nietolerancję laktozy.',
 		},
-        {
+		{
 			section: 'Kreatyna',
 			Title: 'Kreatyna',
 			Description:
 				'Kreatyna, czyli kwas metyloguanidynooctowy, to organiczna substancja chemiczna, gromadzona głównie w mięśniach w formie fosfokreatyny (około 66%) i wolnej kreatyny (około 33%), w sumie około 120-140 g w organizmie człowieka. Jest niezbędna do skurczów mięśni. Każdego dnia organizm traci 1-2% kreatyny, wydalając ją jako kreatyninę. Kreatynina naturalnie występuje w organizmie, a jej produkcja rozpoczyna się w wątrobie. Następnie w postaci fosforanu trafia do mięśni, gdzie jest magazynowana. Jej poziom w organizmie nie jest stały, co może odzwierciedlać ogólny stan zdrowia. Kreatynina jest również filtrowana przez nerki, co pozwala na ocenę ich wydolności oraz efektywności funkcjonowania. Suplementacja kreatyny wskazana jest dla osób trenujących oraz bardzo aktywnych fizycznie. Oczywiście kreatynę można pozyskać z pożywienia, jednakże dieta redukcyjna czy wegetariańska, czy wegańska może utrudnić przyswojenie jej w odpowiednich ilościach. W suplementach diety kreatyna występuje w różnych formach, które charakteryzują się różną zawartością czystej kreatyny. Najczęściej stosowany i najszerzej dostępny jest monohydrat i jabłczan.',
 			ImageUrl: gallery_creatina,
-            imageURL1: creatyna_monohydrant,
+			imageURL1: creatyna_monohydrant,
 			imageURL2: creatyna_jablczan,
 			imageURL3: creatyna_cytrynian,
 			Description2:
@@ -53,13 +52,13 @@ const SuplementsList = ({ click }) => {
 			Description3:
 				'Monohydrat kreatyny, złożony głównie z kreatyny i wody, jest uznawany za najlepszą formę tego związku. Jest to również najdokładniej przebadany suplement, co minimalizuje ryzyko wystąpienia skutków ubocznych podczas jego stosowania. Suplementacja monohydratem wspomaga przyrost masy mięśniowej oraz zwiększa siłę mięśni. Regularne stosowanie kreatyny przyczynia się także do szybszej regeneracji po treningu i wspiera procesy anaboliczne, dlatego jest polecany osobom pracującym nad budową masy mięśniowej i mającym trudności z jej przyrostem. Jabłczan kreatyny nie jest tak czystą formą jak monohydrat, ponieważ powstaje z połączenia kreatyny z kwasem jabłkowym w proporcji 1:3. Jego istotną zaletą jest brak efektu "podlewania wodą", co jednak oznacza, że nie prowadzi do takiego wzrostu objętości mięśni jak monohydrat. Ta forma kreatyny wspiera zwiększenie siły i poprawę wytrzymałości, a także jest doskonałym wyborem podczas redukcji masy ciała.',
 		},
-        {
+		{
 			section: 'Bcaa',
 			Title: 'Bcaa',
 			Description:
 				'BCAA (ang. Branched-Chain Amino Acids) to grupa trzech egzogennych aminokwasów o rozgałęzionych łańcuchach bocznych: leucyny, izoleucyny i waliny. Są one kluczowe dla syntezy białek mięśniowych oraz stanowią około 35% aminokwasów w tkance mięśniowej. Ponieważ organizm ludzki nie jest w stanie ich samodzielnie syntetyzować, muszą być dostarczane z pożywieniem lub suplementami.',
 			ImageUrl: gallery_bcaa,
-            imageURL1: bcaa2_1_1,
+			imageURL1: bcaa2_1_1,
 			imageURL2: bcaa4_1_1,
 			imageURL3: bcaa8_1_1,
 			Description2:
@@ -67,13 +66,13 @@ const SuplementsList = ({ click }) => {
 			Description3:
 				'Suplementacja BCAA przynosi szereg korzyści, zwłaszcza dla osób aktywnych fizycznie: Redukcja zmęczenia podczas treningu: BCAA mogą obniżać poziom serotoniny w mózgu, co przekłada się na zmniejszenie odczuwanego zmęczenia podczas wysiłku fizycznego. Ochrona mięśni przed katabolizmem: Spożycie BCAA przed treningiem może chronić tkankę mięśniową przed rozpadem, szczególnie podczas intensywnych ćwiczeń wytrzymałościowych. Przyspieszenie regeneracji: BCAA wspierają procesy naprawcze w mięśniach po wysiłku, co może skrócić czas potrzebny na regenerację i zmniejszyć bolesność mięśniową. Wspomaganie syntezy białek: Leucyna, jeden z aminokwasów BCAA, odgrywa kluczową rolę w inicjowaniu procesu syntezy białek mięśniowych, co sprzyja budowie masy mięśniowej. Warto jednak pamiętać, że korzyści z suplementacji BCAA są najbardziej widoczne u osób, które nie dostarczają wystarczającej ilości tych aminokwasów z diety. Osoby spożywające odpowiednią ilość białka mogą nie odczuć znaczących efektów dodatkowej suplementacji BCAA.',
 		},
-        {
+		{
 			section: 'Witamina_C',
 			Title: 'Witamina C',
 			Description:
 				'Witamina C, znana również jako kwas askorbinowy, jest rozpuszczalnym w wodzie związkiem o silnych właściwościach antyoksydacyjnych. Odgrywa kluczową rolę w wielu procesach metabolicznych, w tym w syntezie kolagenu, który jest niezbędny dla utrzymania zdrowia skóry, naczyń krwionośnych, kości i chrząstek. Ponadto, witamina C wspomaga wchłanianie żelaza niehemowego z pożywienia oraz uczestniczy w biosyntezie neuroprzekaźników, takich jak noradrenalina. Ze względu na fakt, że organizm ludzki nie jest w stanie syntetyzować witaminy C, musi być ona dostarczana z dietą.',
 			ImageUrl: gallery_vitamins,
-            imageURL1: witamina_c_tabletki,
+			imageURL1: witamina_c_tabletki,
 			imageURL2: witamina_c_proszek,
 			imageURL3: null,
 			Description2:
@@ -81,13 +80,13 @@ const SuplementsList = ({ click }) => {
 			Description3:
 				'Odpowiedni poziom witaminy C w organizmie przynosi liczne korzyści zdrowotne: Wzmocnienie układu odpornościowego: Witamina C wspiera funkcje komórek odpornościowych, co może skracać czas trwania infekcji i łagodzić ich objawy. Działanie antyoksydacyjne: Neutralizuje wolne rodniki, chroniąc komórki przed stresem oksydacyjnym, który jest związany z procesami starzenia i rozwojem chorób przewlekłych. Synteza kolagenu: Niezbędna do produkcji kolagenu, co wpływa na zdrowie skóry, gojenie się ran oraz utrzymanie integralności naczyń krwionośnych. Wchłanianie żelaza: Zwiększa biodostępność żelaza niehemowego z diety, co jest istotne w zapobieganiu anemii z niedoboru żelaza. Ze względu na jej kluczowe funkcje i korzyści zdrowotne, ważne jest regularne spożywanie pokarmów bogatych w witaminę C, takich jak owoce cytrusowe, papryka, truskawki, brokuły i kiwi. W przypadkach zwiększonego zapotrzebowania lub niedoborów, suplementacja może być rozważana po konsultacji z lekarzem.',
 		},
-        {
+		{
 			section: 'Witamina_D',
 			Title: 'Witamina D',
 			Description:
 				'Witamina D to grupa rozpuszczalnych w tłuszczach prohormonów, z których najważniejsze dla człowieka są witamina D2 (ergokalcyferol) i D3 (cholekalcyferol). Cholekalcyferol jest syntetyzowany w skórze pod wpływem promieniowania UVB, natomiast ergokalcyferol pochodzi głównie z diety. Witamina D odgrywa kluczową rolę w regulacji gospodarki wapniowo-fosforanowej, co jest niezbędne dla utrzymania zdrowych kości i zębów. Ponadto wpływa na funkcjonowanie układu odpornościowego, nerwowego oraz mięśniowego.',
 			ImageUrl: gallery_vitamins,
-            imageURL1: witamina_d3_4000,
+			imageURL1: witamina_d3_4000,
 			imageURL2: witamina_d3_2000,
 			imageURL3: witamina_d3_1000,
 			Description2:
@@ -95,13 +94,13 @@ const SuplementsList = ({ click }) => {
 			Description3:
 				'Odpowiedni poziom witaminy D w organizmie przynosi liczne korzyści zdrowotne: Zdrowie kości i zębów: Witamina D wspomaga wchłanianie wapnia i fosforu, co jest kluczowe dla mineralizacji kości i zębów. Jej niedobór może prowadzić do krzywicy u dzieci oraz osteomalacji i osteoporozy u dorosłych.        Układ odpornościowy: Witamina D moduluje odpowiedź immunologiczną, co może zmniejszać ryzyko infekcji oraz chorób autoimmunologicznych. Funkcje mięśniowe: Wpływa na funkcjonowanie mięśni, a jej odpowiedni poziom może poprawiać siłę mięśniową oraz zmniejszać ryzyko upadków u osób starszych. Zdrowie psychiczne: Badania sugerują związek między niedoborem witaminy D a zwiększonym ryzykiem depresji oraz zaburzeń nastroju. Ze względu na ograniczoną syntezę skórną w okresie jesienno-zimowym oraz niską zawartość witaminy D w diecie, suplementacja jest często niezbędna dla utrzymania jej optymalnego poziomu w organizmie.',
 		},
-        {
+		{
 			section: 'Pwr',
 			Title: 'Pwr',
 			Description:
 				'KFD PWR to zaawansowany kompleks przedtreningowy o udoskonalonej formule, opracowany z myślą o wsparciu wydolności fizycznej i umysłowej podczas intensywnych treningów. W skład produktu wchodzą kluczowe składniki takie jak cytrulina, AAKG (arginina w formie alfaketoglutaranu), beta-alanina, kofeina, tauryna oraz tyrozyna – substancje, które są powszechnie stosowane w przedtreningówkach o wysokiej skuteczności. W nowej odsłonie suplement wzbogacono dodatkowo o inozytol, potocznie nazywany witaminą B8, który wspiera koncentrację umysłową i poprawia ogólną sprawność psychiczną. Dodatkowo w składzie znalazła się walina, jeden z kluczowych aminokwasów BCAA. Produkt został pozbawiony zbędnych substancji przeciwzbrylających i tanich wypełniaczy, co zapewnia wysoką jakość i skuteczność działania.',
 			ImageUrl: gallery_creatina,
-            imageURL1: null,
+			imageURL1: null,
 			imageURL2: null,
 			imageURL3: null,
 			Description2:
@@ -109,13 +108,13 @@ const SuplementsList = ({ click }) => {
 			Description3:
 				'Dzięki synergicznemu działaniu składników, takich jak cytrulina, AAKG, beta-alanina i kofeina, suplement wspiera: Poprawę wydolności fizycznej: Zwiększa wytrzymałość i siłę, umożliwiając bardziej intensywne treningi. Opóźnienie zmęczenia: Dzięki beta-alaninie i kofeinie redukuje zmęczenie, co pozwala na dłuższe i bardziej efektywne ćwiczenia. Koncentrację i skupienie: Inozytol i tyrozyna wspomagają funkcje poznawcze i poprawiają motywację. Regenerację: Działanie tauryny i innych składników sprzyja szybszemu powrotowi do pełnej sprawności po treningu.',
 		},
-        {
+		{
 			section: 'Kofeina',
 			Title: 'Kofeina',
 			Description:
 				'Kofeina jest naturalnym stymulantem ośrodkowego układu nerwowego (OUN) należącym do grupy metyloksantyn. Uznawana jest za najczęściej stosowany środek psychoaktywny na świecie. Wykorzystywana jest w codziennych napojach, które pomagają zwalczać objawy zmęczenia psychicznego i fizycznego, w tym kawie, herbacie i czekoladzie. Kofeina występuje również w wielu lekach oraz jako dodatek do napojów gazowanych (np. Pepsi, Coca-Cola) i energetycznych. Głównym celem jej spożycia jest łagodzenie zmęczenia i senności, ale ma także wiele innych zastosowań. Kofeina nie tylko zmniejsza uczucie zmęczenia, ale również ma właściwości ergogeniczne, co oznacza, że poprawia wydolność organizmu podczas treningu.',
 			ImageUrl: gallery_creatina,
-            imageURL1: null,
+			imageURL1: null,
 			imageURL2: null,
 			imageURL3: null,
 			Description2:
@@ -123,13 +122,13 @@ const SuplementsList = ({ click }) => {
 			Description3:
 				'Kofeina pomaga zwalczać zmęczenie psychiczne i fizyczne, co czyni ją popularnym wyborem zarówno w codziennym życiu, jak i w sporcie. Jej właściwości ergogeniczne mogą wspierać maksymalizację osiągów podczas treningów, zwiększając siłę i wytrzymałość oraz poprawiając samopoczucie. Sportowcy mogą rozważyć suplementację kofeiny w formie przedtreningówek lub tabletek, aby poprawić efektywność swoich treningów i zwiększyć wydolność organizmu. Dzięki precyzyjnemu dawkowaniu kofeina może stać się skutecznym narzędziem wspierającym zarówno amatorów, jak i profesjonalnych sportowców.',
 		},
-        {
+		{
 			section: 'Cytrulina',
 			Title: 'Cytrulina',
 			Description:
 				'Cytrulina to związek chemiczny klasyfikowany jako alfa-aminokwas, co oznacza, że posiada grupę aminową przy pierwszym atomie węgla w łańcuchu węglowodorowym, połączonym z grupą karboksylową. Jak każdy aminokwas pełniący funkcje biologiczne w organizmie ludzkim, występuje w formie L-aminokwasu. Jest to aminokwas endogenny, co oznacza, że może być samodzielnie syntezowany przez komórki naszego ciała. Cytrulina znajduje się naturalnie w wielu produktach spożywczych, takich jak arbuzy, ogórki czy dynie, ale jej suplementacja zyskała popularność ze względu na szerokie spektrum korzyści zdrowotnych i sportowych. Poza poprawą wyników sportowych, cytrulina znalazła zastosowanie w terapii takich schorzeń jak: Dysfunkcja erekcji, Demencja, Przewlekłe zmęczenie, Nadciśnienie, Cukrzyca, Choroby serca.',
 			ImageUrl: gallery_creatina,
-            imageURL1: cytrulina_jablczan,
+			imageURL1: cytrulina_jablczan,
 			imageURL2: cytrulina_L,
 			imageURL3: null,
 			Description2:
@@ -137,30 +136,31 @@ const SuplementsList = ({ click }) => {
 			Description3:
 				'Cytrulina jest szczególnie ceniona w sporcie i kulturystyce ze względu na jej zdolność do zwiększania poziomu tlenku azotu (NO) w organizmie. Zwiększona produkcja NO powoduje rozszerzenie naczyń krwionośnych, co poprawia ukrwienie mięśni i zwiększa uczucie tzw. "pompy mięśniowej". Jest to kluczowe dla kulturystów i osób dążących do maksymalizacji efektów treningu siłowego. Dodatkowe korzyści wynikające z suplementacji cytruliną: Poprawa produkcji i wykorzystania energii ATP, co umożliwia bardziej intensywne treningi, Przyspieszenie regeneracji mięśni po wysiłku, Redukcja obolałości mięśni (DOMS) Zwiększenie siły i masy mięśniowej przy regularnym stosowaniu,',
 		},
+	];
 
-    ];
+	const filteredSuplements = click
+		? suplements.filter((suplement) => suplement.section === click)
+		: suplements;
 
-    const filteredSuplements = click ? suplements.filter((suplement) => suplement.section === click) : suplements;
-
-
-
-	return <div>
-    {filteredSuplements.map((suplement, index) => (
-        <SuplementSection key={index} sectionTitle={suplement.section}>
-            <SuplementComponent
-                key={index}
-                title={suplement.Title}
-                description={suplement.Description}
-                description2={suplement.Description2}
-                description3={suplement.Description3}
-                imageUrl={suplement.ImageUrl}
-                imageURL1={suplement.imageURL1}
-                imageURL2={suplement.imageURL2}
-                imageURL3={suplement.imageURL3}
-            />
-        </SuplementSection>
-    ))}
-</div>
+	return (
+		<div>
+			{filteredSuplements.map((suplement, index) => (
+				<SuplementSection key={index} sectionTitle={suplement.section}>
+					<SuplementComponent
+						key={index}
+						title={suplement.Title}
+						description={suplement.Description}
+						description2={suplement.Description2}
+						description3={suplement.Description3}
+						imageUrl={suplement.ImageUrl}
+						imageURL1={suplement.imageURL1}
+						imageURL2={suplement.imageURL2}
+						imageURL3={suplement.imageURL3}
+					/>
+				</SuplementSection>
+			))}
+		</div>
+	);
 };
 
 export default SuplementsList;
