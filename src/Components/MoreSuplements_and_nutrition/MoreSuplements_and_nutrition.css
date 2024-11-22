@@ -43,13 +43,14 @@
 
 .more-suplements-bottom {
 	width: 100%;
-    margin-top: 20px;
+    margin-top: 60px;
 	padding: 20px;
 	background-color: #f5f5f5;
     background: linear-gradient(to top, rgba(255, 153, 102, 0.4), transparent) no-repeat;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 	border-radius: 10px;
 	text-align: justify;
+	position: relative;
 }
 
 .more-suplements-right img {
@@ -66,6 +67,7 @@
 
 .more-suplements-left p {
 	font-size: 14px;
+	letter-spacing: 0.7px;
 }
 .more-suplements-left ul li {
 	list-style: none;
@@ -74,12 +76,45 @@
 	color: #ff9966b9;
     cursor: pointer;
 }
+
+/* SEKCJA */
+
 .section-suplements > h1 {
 	display: none;
 }
 .section-suplements {
-    margin-bottom: 50px;
+    margin: 50px 0 50px;
 }
+/* NAPIS RANKING */
+.ranking{
+	font-size: 120px;
+	position: absolute;
+	top: -13%;
+	left: -6%;
+	z-index: 0;
+	color: #e87a43;
+	text-transform: uppercase;
+  background: linear-gradient(135deg, #ff7e5f, #feb47b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4), 0 0 10px rgba(255, 153, 102, 0.5);
+  transform: rotate(-3deg);
+  animation: pulse 4s infinite;
+}
+
+@keyframes pulse {
+	0% {
+	  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4), 0 0 20px rgba(255, 153, 102, 0.7);
+	}
+	50% {
+	  text-shadow: 3px 3px 15px rgba(0, 0, 0, 0.4), 0 0 30px rgba(255, 200, 150, 1);
+	}
+	100% {
+	  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4), 0 0 20px rgba(255, 153, 102, 0.7);
+	}
+  }
+
 /* RANKING STYLIZACJA */
 .top-container {
     display: flex;
@@ -106,23 +141,33 @@
 }
 
 .top-item {
-      cursor: pointer;
-    position: relative;
+	position: relative;
     text-align: center;
     color: #fff;
     width: 30%;
-  }
+}
+
+  .empty-rank {
+	  background: none;
+    border: none;
+    box-shadow: none;
+    visibility: hidden;
+    width: 250px;
+    height: 320px;
+}  
+
 .top-item:hover > .top-rank{
-    transform: scale(1.2);
+	transform: scale(1.2);
     color: #ff9966;
 }
-  .top-item img {
-    width: 250px;
+.top-item img {
+	width: 250px;
     height: 320px;
     border-radius: 10px 10px 0 0;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
     z-index: 1;
     position: relative;
+	cursor: pointer;
 }
 
 .top-item p {

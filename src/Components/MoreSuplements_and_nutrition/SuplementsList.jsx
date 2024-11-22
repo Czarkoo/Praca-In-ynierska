@@ -2,12 +2,26 @@ import React from 'react';
 import SuplementComponent from './SuplementComponent';
 import SuplementSection from './SuplementSection';
 import gallery_creatina from '../../assets/gallery_creatina.webp';
-import gallery_protein from '../../assets/gallery_protein.webp'
-import gallery_vitamins from '../../assets/gallery_vitamins.png'
-import gallery_bcaa from '../../assets/gallery_bcaa.webp'
-import gallery_wph from '../../assets/bialko_wph.webp'
-import gallery_wpc from '../../assets/bialko_wpc.webp'
-import gallery_wpi from '../../assets/bialko_wpi.webp'
+import gallery_protein from '../../assets/gallery_protein.webp';
+import gallery_vitamins from '../../assets/gallery_vitamins.png';
+import gallery_bcaa from '../../assets/gallery_bcaa.webp';
+import gallery_wph from '../../assets/bialko_wph.webp';
+import gallery_wpc from '../../assets/bialko_wpc.webp';
+import gallery_wpi from '../../assets/bialko_wpi.webp';
+import creatyna_monohydrant from '../../assets/creatyna_monohydrant.webp';
+import creatyna_jablczan from '../../assets/creatyna_jablczan.webp';
+import creatyna_cytrynian from '../../assets/creatyna_cytrynian.webp';
+import bcaa2_1_1 from '../../assets/bcaa2_1_1.webp';
+import bcaa4_1_1 from '../../assets/bcaa4_1_1.webp';
+import bcaa8_1_1 from '../../assets/bcaa8_1_1.webp';
+import witamina_c_proszek from '../../assets/witamina_c_proszek.webp';
+import witamina_c_tabletki from '../../assets/witamina_c_tabletki.webp';
+import witamina_d3_4000 from '../../assets/witamina_d3_4000.webp';
+import witamina_d3_2000 from '../../assets/witamina_d3_2000.webp';
+import witamina_d3_1000 from '../../assets/witamina_d3_1000.webp';
+import cytrulina_jablczan from '../../assets/cytrulina_jablczan.webp';
+import cytrulina_L from '../../assets/cytrulina_L.webp';
+
 const SuplementsList = ({ click }) => {
     const suplements =
     [
@@ -31,9 +45,9 @@ const SuplementsList = ({ click }) => {
 			Description:
 				'Kreatyna, czyli kwas metyloguanidynooctowy, to organiczna substancja chemiczna, gromadzona głównie w mięśniach w formie fosfokreatyny (około 66%) i wolnej kreatyny (około 33%), w sumie około 120-140 g w organizmie człowieka. Jest niezbędna do skurczów mięśni. Każdego dnia organizm traci 1-2% kreatyny, wydalając ją jako kreatyninę. Kreatynina naturalnie występuje w organizmie, a jej produkcja rozpoczyna się w wątrobie. Następnie w postaci fosforanu trafia do mięśni, gdzie jest magazynowana. Jej poziom w organizmie nie jest stały, co może odzwierciedlać ogólny stan zdrowia. Kreatynina jest również filtrowana przez nerki, co pozwala na ocenę ich wydolności oraz efektywności funkcjonowania. Suplementacja kreatyny wskazana jest dla osób trenujących oraz bardzo aktywnych fizycznie. Oczywiście kreatynę można pozyskać z pożywienia, jednakże dieta redukcyjna czy wegetariańska, czy wegańska może utrudnić przyswojenie jej w odpowiednich ilościach. W suplementach diety kreatyna występuje w różnych formach, które charakteryzują się różną zawartością czystej kreatyny. Najczęściej stosowany i najszerzej dostępny jest monohydrat i jabłczan.',
 			ImageUrl: gallery_creatina,
-            imageURL1: null,
-			imageURL2: null,
-			imageURL3: null,
+            imageURL1: creatyna_monohydrant,
+			imageURL2: creatyna_jablczan,
+			imageURL3: creatyna_cytrynian,
 			Description2:
 				'Dawka kreatyny zależy od treningu, wieku, płci i masy mięśniowej. Choć informacje na temat dawkowania bywają sprzeczne, badania wskazują, że efekty można osiągnąć już przy dawce 3-5 g dziennie, zależnie od płci. Kreatynę można przyjmować przed lub po treningu, w zależności od preferencji, ponieważ czas jej suplementacji wpływa na indywidualne odczucia siły. Niektórzy wybierają dodatkową dawkę rano lub przed snem, aby wspomóc regenerację. Najlepiej przetestować różne pory przyjmowania, by dopasować je do swoich potrzeb.',
 			Description3:
@@ -45,9 +59,9 @@ const SuplementsList = ({ click }) => {
 			Description:
 				'BCAA (ang. Branched-Chain Amino Acids) to grupa trzech egzogennych aminokwasów o rozgałęzionych łańcuchach bocznych: leucyny, izoleucyny i waliny. Są one kluczowe dla syntezy białek mięśniowych oraz stanowią około 35% aminokwasów w tkance mięśniowej. Ponieważ organizm ludzki nie jest w stanie ich samodzielnie syntetyzować, muszą być dostarczane z pożywieniem lub suplementami.',
 			ImageUrl: gallery_bcaa,
-            imageURL1: null,
-			imageURL2: null,
-			imageURL3: null,
+            imageURL1: bcaa2_1_1,
+			imageURL2: bcaa4_1_1,
+			imageURL3: bcaa8_1_1,
 			Description2:
 				'Optymalne dawkowanie BCAA zależy od indywidualnych potrzeb, masy ciała oraz intensywności aktywności fizycznej. Ogólne zalecenia sugerują spożycie od 5 do 20 gramów BCAA dziennie, podzielone na kilka porcji. Często stosuje się dawki około 5-10 gramów przed i po treningu, aby wspierać syntezę białek i regenerację mięśni. Warto jednak dostosować dawkowanie do własnych potrzeb i konsultować je z dietetykiem lub specjalistą ds. suplementacji.',
 			Description3:
@@ -58,9 +72,9 @@ const SuplementsList = ({ click }) => {
 			Title: 'Witamina C',
 			Description:
 				'Witamina C, znana również jako kwas askorbinowy, jest rozpuszczalnym w wodzie związkiem o silnych właściwościach antyoksydacyjnych. Odgrywa kluczową rolę w wielu procesach metabolicznych, w tym w syntezie kolagenu, który jest niezbędny dla utrzymania zdrowia skóry, naczyń krwionośnych, kości i chrząstek. Ponadto, witamina C wspomaga wchłanianie żelaza niehemowego z pożywienia oraz uczestniczy w biosyntezie neuroprzekaźników, takich jak noradrenalina. Ze względu na fakt, że organizm ludzki nie jest w stanie syntetyzować witaminy C, musi być ona dostarczana z dietą.',
-			ImageUrl: gallery_creatina,
-            imageURL1: null,
-			imageURL2: null,
+			ImageUrl: gallery_vitamins,
+            imageURL1: witamina_c_tabletki,
+			imageURL2: witamina_c_proszek,
 			imageURL3: null,
 			Description2:
 				'Zalecane dzienne spożycie (RDA) witaminy C różni się w zależności od wieku, płci i stanu fizjologicznego: Dorośli mężczyźni: 90 mg/dzień, Dorosłe kobiety: 75 mg/dzień, Kobiety w ciąży: 85 mg/dzień, Kobiety karmiące piersią: 120 mg/dzień. Palenie tytoniu zwiększa zapotrzebowanie na witaminę C o dodatkowe 35 mg/dzień ze względu na zwiększony stres oksydacyjny. Chociaż witamina C jest ogólnie bezpieczna, spożycie powyżej tolerowanego górnego poziomu spożycia (UL) wynoszącego 2000 mg/dzień może prowadzić do skutków ubocznych, takich jak biegunka, nudności i skurcze żołądka.',
@@ -72,10 +86,10 @@ const SuplementsList = ({ click }) => {
 			Title: 'Witamina D',
 			Description:
 				'Witamina D to grupa rozpuszczalnych w tłuszczach prohormonów, z których najważniejsze dla człowieka są witamina D2 (ergokalcyferol) i D3 (cholekalcyferol). Cholekalcyferol jest syntetyzowany w skórze pod wpływem promieniowania UVB, natomiast ergokalcyferol pochodzi głównie z diety. Witamina D odgrywa kluczową rolę w regulacji gospodarki wapniowo-fosforanowej, co jest niezbędne dla utrzymania zdrowych kości i zębów. Ponadto wpływa na funkcjonowanie układu odpornościowego, nerwowego oraz mięśniowego.',
-			ImageUrl: gallery_creatina,
-            imageURL1: null,
-			imageURL2: null,
-			imageURL3: null,
+			ImageUrl: gallery_vitamins,
+            imageURL1: witamina_d3_4000,
+			imageURL2: witamina_d3_2000,
+			imageURL3: witamina_d3_1000,
 			Description2:
 				'Zalecane dzienne spożycie witaminy D różni się w zależności od wieku, stanu zdrowia oraz ekspozycji na słońce. Według wytycznych Polskiego Instytutu Żywności i Żywienia, dzienne zapotrzebowanie wynosi: Niemowlęta (0–12 miesięcy): 400–600 IU (10–15 µg), Dzieci i młodzież (1–18 lat): 600–1000 IU (15–25 µg), Dorośli (19–65 lat): 800–2000 IU (20–50 µg), Seniorzy (>65 lat): 800–2000 IU (20–50 µg), Kobiety w ciąży i karmiące: 1500–2000 IU (37,5–50 µg) Wartości te mogą się różnić w zależności od indywidualnych potrzeb oraz poziomu witaminy D w organizmie. W przypadku niedoborów lub zwiększonego zapotrzebowania, dawki mogą być wyższe, jednak powinny być ustalane przez lekarza.',
 			Description3:
@@ -85,15 +99,15 @@ const SuplementsList = ({ click }) => {
 			section: 'Pwr',
 			Title: 'Pwr',
 			Description:
-				'.....',
+				'KFD PWR to zaawansowany kompleks przedtreningowy o udoskonalonej formule, opracowany z myślą o wsparciu wydolności fizycznej i umysłowej podczas intensywnych treningów. W skład produktu wchodzą kluczowe składniki takie jak cytrulina, AAKG (arginina w formie alfaketoglutaranu), beta-alanina, kofeina, tauryna oraz tyrozyna – substancje, które są powszechnie stosowane w przedtreningówkach o wysokiej skuteczności. W nowej odsłonie suplement wzbogacono dodatkowo o inozytol, potocznie nazywany witaminą B8, który wspiera koncentrację umysłową i poprawia ogólną sprawność psychiczną. Dodatkowo w składzie znalazła się walina, jeden z kluczowych aminokwasów BCAA. Produkt został pozbawiony zbędnych substancji przeciwzbrylających i tanich wypełniaczy, co zapewnia wysoką jakość i skuteczność działania.',
 			ImageUrl: gallery_creatina,
             imageURL1: null,
 			imageURL2: null,
 			imageURL3: null,
 			Description2:
-				'.......',
+				'Beta-alanina: Opóźnia początek zmęczenia mięśniowego poprzez zwiększenie poziomu karnozyny w mięśniach. Dzięki temu poprawia wytrzymałość i intensywność ćwiczeń beztlenowych, zmniejsza zmęczenie oraz wspiera efektywność treningu. Kofeina: Poprawia wydolność fizyczną i umysłową, przedłużając czas ćwiczeń poprzez opóźnienie zmęczenia. Działa stymulująco na układ nerwowy, co przyczynia się do lepszej koncentracji i wytrzymałości podczas wysiłku fizycznego. Tauryna: Pełni kluczową rolę w regulacji układu odpornościowego i nerwowego, wspierając sprawność fizyczną i umysłową w sytuacjach stresu i przeciążenia treningowego. Inozytol (witamina B8): Wspomaga funkcjonowanie układu nerwowego, poprawiając koncentrację i efektywność umysłową. Dodatkowo wspiera procesy metaboliczne i działanie innych składników suplementu.',
 			Description3:
-				'...',
+				'Dzięki synergicznemu działaniu składników, takich jak cytrulina, AAKG, beta-alanina i kofeina, suplement wspiera: Poprawę wydolności fizycznej: Zwiększa wytrzymałość i siłę, umożliwiając bardziej intensywne treningi. Opóźnienie zmęczenia: Dzięki beta-alaninie i kofeinie redukuje zmęczenie, co pozwala na dłuższe i bardziej efektywne ćwiczenia. Koncentrację i skupienie: Inozytol i tyrozyna wspomagają funkcje poznawcze i poprawiają motywację. Regenerację: Działanie tauryny i innych składników sprzyja szybszemu powrotowi do pełnej sprawności po treningu.',
 		},
         {
 			section: 'Kofeina',
@@ -115,8 +129,8 @@ const SuplementsList = ({ click }) => {
 			Description:
 				'Cytrulina to związek chemiczny klasyfikowany jako alfa-aminokwas, co oznacza, że posiada grupę aminową przy pierwszym atomie węgla w łańcuchu węglowodorowym, połączonym z grupą karboksylową. Jak każdy aminokwas pełniący funkcje biologiczne w organizmie ludzkim, występuje w formie L-aminokwasu. Jest to aminokwas endogenny, co oznacza, że może być samodzielnie syntezowany przez komórki naszego ciała. Cytrulina znajduje się naturalnie w wielu produktach spożywczych, takich jak arbuzy, ogórki czy dynie, ale jej suplementacja zyskała popularność ze względu na szerokie spektrum korzyści zdrowotnych i sportowych. Poza poprawą wyników sportowych, cytrulina znalazła zastosowanie w terapii takich schorzeń jak: Dysfunkcja erekcji, Demencja, Przewlekłe zmęczenie, Nadciśnienie, Cukrzyca, Choroby serca.',
 			ImageUrl: gallery_creatina,
-            imageURL1: null,
-			imageURL2: null,
+            imageURL1: cytrulina_jablczan,
+			imageURL2: cytrulina_L,
 			imageURL3: null,
 			Description2:
 				'Cytrulina wykazuje swoje najlepsze efekty, gdy jest stosowana w odpowiednich dawkach przed treningiem. Najczęściej zaleca się przyjmowanie 6-8 g jabłczanu cytruliny około 30-60 minut przed wysiłkiem fizycznym. W przypadku stosowania L-cytruliny dawka może być nieco niższa, ale efektywność będzie zależeć od indywidualnych potrzeb organizmu. Na rynku znajdziemy preparaty zawierające cytrulinę w dwóch głównych formach: L-cytrulina – czysta forma aminokwasu, lepiej wspierająca krążenie i pompy mięśniowe, Jabłczan cytruliny – połączenie cytruliny z kwasem jabłkowym w stosunku 2:1, które dodatkowo wspiera produkcję energii w cyklu Krebsa.',

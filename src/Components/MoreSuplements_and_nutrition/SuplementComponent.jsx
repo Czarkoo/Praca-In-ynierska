@@ -10,7 +10,7 @@ const SuplementComponent = ({
 	imageURL2,
 	imageURL3,
 }) => {
-	console.log("Image URLs:", imageURL1, imageURL2, imageURL3);
+	console.log('Image URLs:', imageURL1, imageURL2, imageURL3);
 	const [visibleDescriptions, setVisibleDescriptions] = useState({
 		description2: false,
 		description3: false,
@@ -22,6 +22,16 @@ const SuplementComponent = ({
 			[descriptionKey]: !prev[descriptionKey],
 		}));
 	};
+
+	const items = [
+		{ rank: 1, image: imageURL1 },
+		{ rank: 2, image: imageURL2 },
+		{ rank: 3, image: imageURL3 },
+	];
+
+	const filledItems = items.map((item, index) => {
+		return item.image ? item : { rank: index + 1, image: null }; // Add empty placeholders
+	});
 
 	return (
 		<div className='more-suplements'>
@@ -48,31 +58,21 @@ const SuplementComponent = ({
 				</div>
 			</div>
 			<div className='more-suplements-bottom'>
-			{(imageURL1 || imageURL2 || imageURL3) && (
-        <div className='top-container'>
-            {imageURL1 && (
-                <div className='top-item'>
-                    <span className='top-rank'>1</span>
-                    <img src={imageURL1} alt='TOP1' />
-                    
-                </div>
-            )}
-            {imageURL2 && (
-                <div className='top-item'>
-                    <span className='top-rank'>2</span>
-                    <img src={imageURL2} alt='TOP2' />
-                    
-                </div>
-            )}
-            {imageURL3 && (
-                <div className='top-item'>
-                    <span className='top-rank'>3</span>
-                    <img src={imageURL3} alt='TOP3' />
-                    
-                </div>
-            )}
-        </div>
-    )}
+				<div className='ranking'>Ranking</div>
+				<div className='top-container'>
+					{filledItems.map((item, index) => (
+						<div key={index} className='top-item'>
+							{item.image ? (
+								<>
+									<span className='top-rank'>{item.rank}</span>
+									<img src={item.image} alt={`TOP${item.rank}`} />
+								</>
+							) : (
+								<div className='empty-rank'></div> // Empty placeholder
+							)}
+						</div>
+					))}
+				</div>
 			</div>
 		</div>
 	);
