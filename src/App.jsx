@@ -10,6 +10,7 @@ import Suplements_and_nutrition from './Components/Suplements_and_nutrition/Supl
 import Title from './Components/Title/Title';
 import Websitebgc from './Components/Websitebgc/Websitebgc';
 import Footer from './Components/Footer/Footer';
+import MoreSuplements_and_nutrition from './Components/MoreSuplements_and_nutrition/MoreSuplements_and_nutrition';
 
 const App = () => {
 	return (
@@ -22,6 +23,7 @@ const App = () => {
 						<Route path='/' element={<Home />} />
 						<Route path='more-programs' element={<MorePrograms />} />
 						<Route path='MoreaboutFactsMyths' element={<MoreFacts_Myths />} />
+						<Route path='more-suplements' element={<MoreSuplements_and_nutrition />} />
 					</Routes>
 				</div>
 				<Footer />

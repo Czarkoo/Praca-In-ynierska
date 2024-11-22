@@ -1,5 +1,6 @@
 import React from 'react';
 import './Suplements_and_nutrition.css';
+import { Link } from 'react-router-dom';
 import gallery_bcaa from '../../assets/gallery_bcaa.webp';
 import gallery_creatina from '../../assets/gallery_creatina.webp';
 import gallery_protein from '../../assets/gallery_protein.webp';
@@ -14,10 +15,12 @@ const Suplements_and_nutrition = () => {
 				<img src={gallery_protein} alt='' />
 				<img src={gallery_vitamins} alt='' />
 			</div>
-			<button className='btn dark-btn'>
-				Read More
-				<img src={arrow_right} alt='' />
-			</button>
+			<Link to='more-suplements'>
+				<button className='btn dark-btn'>
+					Read More
+					<img src={arrow_right} alt='' />
+				</button>
+			</Link>
 		</div>
 	);
 };
