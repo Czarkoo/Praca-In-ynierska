@@ -21,6 +21,9 @@ import witamina_d3_2000 from '../../assets/witamina_d3_2000.webp';
 import witamina_d3_1000 from '../../assets/witamina_d3_1000.webp';
 import cytrulina_jablczan from '../../assets/cytrulina_jablczan.webp';
 import cytrulina_L from '../../assets/cytrulina_L.webp';
+import pwr from '../../assets/pwr.webp';
+import koffeina from '../../assets/koffeina.webp';
+import cytrulina from '../../assets/cytrulina.webp';
 
 const SuplementsList = ({ click }) => {
 	const suplements = [
@@ -99,7 +102,7 @@ const SuplementsList = ({ click }) => {
 			Title: 'Pwr',
 			Description:
 				'KFD PWR to zaawansowany kompleks przedtreningowy o udoskonalonej formule, opracowany z myślą o wsparciu wydolności fizycznej i umysłowej podczas intensywnych treningów. W skład produktu wchodzą kluczowe składniki takie jak cytrulina, AAKG (arginina w formie alfaketoglutaranu), beta-alanina, kofeina, tauryna oraz tyrozyna – substancje, które są powszechnie stosowane w przedtreningówkach o wysokiej skuteczności. W nowej odsłonie suplement wzbogacono dodatkowo o inozytol, potocznie nazywany witaminą B8, który wspiera koncentrację umysłową i poprawia ogólną sprawność psychiczną. Dodatkowo w składzie znalazła się walina, jeden z kluczowych aminokwasów BCAA. Produkt został pozbawiony zbędnych substancji przeciwzbrylających i tanich wypełniaczy, co zapewnia wysoką jakość i skuteczność działania.',
-			ImageUrl: gallery_creatina,
+			ImageUrl: pwr,
 			imageURL1: null,
 			imageURL2: null,
 			imageURL3: null,
@@ -113,7 +116,7 @@ const SuplementsList = ({ click }) => {
 			Title: 'Kofeina',
 			Description:
 				'Kofeina jest naturalnym stymulantem ośrodkowego układu nerwowego (OUN) należącym do grupy metyloksantyn. Uznawana jest za najczęściej stosowany środek psychoaktywny na świecie. Wykorzystywana jest w codziennych napojach, które pomagają zwalczać objawy zmęczenia psychicznego i fizycznego, w tym kawie, herbacie i czekoladzie. Kofeina występuje również w wielu lekach oraz jako dodatek do napojów gazowanych (np. Pepsi, Coca-Cola) i energetycznych. Głównym celem jej spożycia jest łagodzenie zmęczenia i senności, ale ma także wiele innych zastosowań. Kofeina nie tylko zmniejsza uczucie zmęczenia, ale również ma właściwości ergogeniczne, co oznacza, że poprawia wydolność organizmu podczas treningu.',
-			ImageUrl: gallery_creatina,
+			ImageUrl: koffeina,
 			imageURL1: null,
 			imageURL2: null,
 			imageURL3: null,
@@ -127,7 +130,7 @@ const SuplementsList = ({ click }) => {
 			Title: 'Cytrulina',
 			Description:
 				'Cytrulina to związek chemiczny klasyfikowany jako alfa-aminokwas, co oznacza, że posiada grupę aminową przy pierwszym atomie węgla w łańcuchu węglowodorowym, połączonym z grupą karboksylową. Jak każdy aminokwas pełniący funkcje biologiczne w organizmie ludzkim, występuje w formie L-aminokwasu. Jest to aminokwas endogenny, co oznacza, że może być samodzielnie syntezowany przez komórki naszego ciała. Cytrulina znajduje się naturalnie w wielu produktach spożywczych, takich jak arbuzy, ogórki czy dynie, ale jej suplementacja zyskała popularność ze względu na szerokie spektrum korzyści zdrowotnych i sportowych. Poza poprawą wyników sportowych, cytrulina znalazła zastosowanie w terapii takich schorzeń jak: Dysfunkcja erekcji, Demencja, Przewlekłe zmęczenie, Nadciśnienie, Cukrzyca, Choroby serca.',
-			ImageUrl: gallery_creatina,
+			ImageUrl: cytrulina,
 			imageURL1: cytrulina_jablczan,
 			imageURL2: cytrulina_L,
 			imageURL3: null,

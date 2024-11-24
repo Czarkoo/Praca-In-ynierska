@@ -68,7 +68,7 @@ const SuplementComponent = ({
 									<img src={item.image} alt={`TOP${item.rank}`} />
 								</>
 							) : (
-								<div className='empty-rank'></div> // Empty placeholder
+								<div className='empty-rank'></div>
 							)}
 						</div>
 					))}
