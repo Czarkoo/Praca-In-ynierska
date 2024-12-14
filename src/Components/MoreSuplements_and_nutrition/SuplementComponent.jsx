@@ -58,7 +58,9 @@ const SuplementComponent = ({
 				</div>
 			</div>
 			<div className='more-suplements-bottom'>
-				<div className='ranking'>Ranking</div>
+				<div className='ranking'>
+					Ranking
+					<div className='ranking_2'>najczęciej wybieranych produktów</div></div>
 				<div className='top-container'>
 					{filledItems.map((item, index) => (
 						<div key={index} className='top-item'>

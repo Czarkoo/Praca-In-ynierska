@@ -8,8 +8,6 @@
 			"image": "william_person1.png",
 			"data": "2018-11-05",
 			"rate": 4.1
-
-			
 		},
 		{
 			"firstName": "Emily",
@@ -25,7 +23,7 @@
 			"lastName": "Doe",
 			"region": "Śląsk, Katowice",
 			"description": "Ta strona to idealne miejsce dla osób, które chcą poprawić swoją kondycję i dowiedzieć się więcej o suplementacji. Sekcja suplementów zawiera dobrze opisane produkty, które wspierają rozwój masy mięśniowej i regenerację organizmu. Dzięki sekcji „Fakty i Mity” można uniknąć częstych błędów i mitów, które wciąż krążą w świecie fitnessu. Dostępne są też instrukcje ćwiczeń, które pomagają w planowaniu treningu na różnych poziomach zaawansowania. Świetne źródło wiedzy, z dużą ilością przydatnych informacji.",
-			"image": "john_person3.png",
+			"image": "william_person1.png",
 			"data": "2015-06-12",
 			"rate": 4.7
 		},
@@ -34,7 +32,7 @@
 			"lastName": "Bellgs",
 			"region": "Śląsk, Dąbrówka Mała",
 			"description": "Strona dostarcza wyczerpujących informacji na temat suplementów, faktycznie wspierających sportowców i osoby aktywne. Przejrzysta sekcja „Fakty i Mity” pomaga użytkownikom odróżnić rzeczywiste korzyści z treningu od powszechnych błędnych przekonań. Znajdziesz tu również instrukcje dla ćwiczeń, które umożliwiają skuteczne planowanie treningów. Wszystkie artykuły są napisane przystępnie, a treść jest zrozumiała dla każdego. Zdecydowanie polecam dla tych, którzy chcą świadomie dbać o swoje zdrowie.",
-			"image": "emily_person2.png",
+			"image": "william_person1.png",
 			"data": "2020-03-18",
 			"rate": 4.3
 		},
@@ -43,18 +41,18 @@
 			"lastName": "Kowalska",
 			"region": "Śląsk, Zabrze",
 			"description": "Jestem bardzo zadowolona z informacji zawartych na tej stronie. Znajdują się tutaj szczegółowe opisy suplementów oraz porady na temat tego, jak prawidłowo je stosować. Sekcja „Fakty i Mity” pozwoliła mi zrozumieć, które popularne opinie są błędne, a co rzeczywiście ma sens w kontekście fitnessu. Strona zawiera również wiele przydatnych wskazówek na temat treningów, które mogłam łatwo włączyć do mojego planu dnia. Polecam tę stronę wszystkim, którzy poważnie myślą o poprawie zdrowia i kondycji.",
-			"image": "anna_person5.png",
+			"image": "emily_person2.png",
 			"data": "2019-03-17",
 			"rate": 4.8
-		  },
-		  {
+		},
+		{
 			"firstName": "Michael",
 			"lastName": "Nowak",
 			"region": "Śląsk, Ruda Śląska",
 			"description": "Strona jest świetnym źródłem wiedzy dla wszystkich, którzy chcą poprawić swoje zdrowie i kondycję fizyczną. Dział „Fakty i Mity” to naprawdę ciekawe miejsce, które pozwala obalić wiele mitów dotyczących zdrowia i aktywności fizycznej. Dodatkowo znalazłem tu wiele ciekawych artykułów na temat suplementów oraz opisów ćwiczeń, które pomogły mi zoptymalizować mój trening. Strona jest przyjazna w obsłudze, a treści są napisane w zrozumiały sposób, co sprawia, że jest to świetne miejsce zarówno dla początkujących, jak i zaawansowanych sportowców.",
-			"image": "michael_person6.png",
+			"image": "william_person1.png",
 			"data": "2022-05-17",
 			"rate": 4.2
-		  }
+		}
 	]
 }

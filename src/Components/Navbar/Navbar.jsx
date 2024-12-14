@@ -17,10 +17,10 @@ const Navbar = () => {
 		});
 	}, []);
 
+
 	const [mobileMenu, setMobileMenu] = useState(false);
 	const toggleMenu = () => {
 		setMobileMenu(!mobileMenu);
-		// mobileMenu ? setMobileMenu(false) : setMobileMenu(true);
 	};
 
 	const handleNavClick = (sectionId) => {

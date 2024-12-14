@@ -43,7 +43,7 @@
 
 .more-suplements-bottom {
 	width: 100%;
-	margin-top: 60px;
+	margin-top: 120px;
 	padding: 20px;
 	background-color: #f5f5f5;
 	background: linear-gradient(to top, rgba(255, 153, 102, 0.4), transparent)
@@ -88,9 +88,9 @@
 }
 /* NAPIS RANKING */
 .ranking {
-	font-size: 120px;
-	position: absolute;
-	top: -17%;
+	font-size: 100px;
+	position: relative;
+	top: -20%;
 	left: -6%;
 	z-index: 0;
 	color: #e87a43;
@@ -100,10 +100,14 @@
 	-webkit-text-fill-color: transparent;
 	font-weight: bold;
 	text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4), 0 0 10px rgba(255, 153, 102, 0.5);
-	transform: rotate(-3deg);
 	animation: pulse 4s infinite;
 }
 
+.ranking_2{
+	font-size: 30px;
+    background: none;
+    animation: none;
+}
 @keyframes pulse {
 	0% {
 		text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4),
@@ -246,7 +250,7 @@
 	}
 	.top-rank {
 		bottom: -75px;
-		left: -10px;
+		left: -15px;
 	}
 
 	.top-item:nth-child(2) .top-rank {
